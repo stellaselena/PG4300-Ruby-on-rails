@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
   devise_for :models, controllers: {registrations: "registrations"}
+  resources :users
+  resources :posts do
+    resources :comments
+  end
   get 'guide' => 'supplementation#guide'
 
   get 'calorie_calculator'  => 'nutrition#calorie_calculator'
@@ -16,6 +20,7 @@ Rails.application.routes.draw do
   get 'exercise'  => 'workout#exercise'
 
   get 'home'  => 'home_page#main_page'
+  #get 'posts' => 'posts#index'
 
   root 'home_page#main_page'
 

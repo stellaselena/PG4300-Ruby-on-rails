@@ -1,7 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c513ed42-8b93-4ab6-a0f4-2bc53f432563" name="Default" comment="" />
+    <list default="true" id="c513ed42-8b93-4ab6-a0f4-2bc53f432563" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/javascripts/admin.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/javascripts/comments.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/javascripts/posts.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/javascripts/sessions.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/javascripts/users.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/javascripts/welcome.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/stylesheets/admin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/stylesheets/comments.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/stylesheets/posts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/stylesheets/scaffolds.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/stylesheets/sessions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/stylesheets/users.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/assets/stylesheets/welcome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/controllers/admin_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/controllers/comments_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/controllers/posts_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/controllers/sessions_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/controllers/welcome_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/helpers/admin_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/helpers/comments_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/helpers/posts_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/helpers/sessions_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/helpers/users_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/helpers/welcome_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/models/comment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/models/post.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/models/user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/admin/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/_post.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/posts/show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/sessions/create.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/sessions/destroy.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/sessions/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/_user.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/users/show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/welcome/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/app/views/welcome/login.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/config/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/config/database_BACKUP_13204.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/config/database_BASE_13204.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/config/database_LOCAL_13204.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/config/database_REMOTE_13204.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/config/initializers/devise.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/db/migrate/20170507112638_create_posts.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/db/migrate/20170510065908_create_comments.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/db/migrate/20170513170937_devise_create_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/db/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/controllers/admin_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/controllers/comments_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/controllers/posts_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/controllers/sessions_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/controllers/users_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/controllers/welcome_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/fixtures/comments.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/fixtures/posts.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/fixtures/users.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/models/comment_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/models/post_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/test/models/user_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/-v/-vUB3jkcAF3-OSC4O1pwnUSB2kbtSIo9dcqzU6TUPP4.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/0G/0GqVY_kEOAdaCW5Gjyqc1EgxQmTYpGbS73tYwD_F7p8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/1X/1XZci_iwCoV9uRyANkVYk1R4EaSnXMcm43oxyCSEuWI.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/1a/1aMdD9Z5cAzv7j88fyzMps2jWrj-An2eOJiSVxGcV-E.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/1e/1e6j_8mzUGRHel26WePtoFTTyGJSoo5H4FziulH300w.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/1v/1vWTHKs0SL8pFDoR_cYzO-gHujQhhsSF4pOk6yHX2Vc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/3t/3tZ7riYYs_fWnCRRThA6rGgfbAEK4c4b9qLkQU7xtxM.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/46/46DyxakVD1mNx8bXeNGdIXEJQRVtSaM15eRz4ar8u_4.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/4E/4E4CcN7xgQcYg3jwTyiIu3Wv6Eq-8HCJupKh01WNvMQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/4J/4JkSNMyCKGHxNhkOfXgZTXEY1ddW3lg9Q4iVQylGNoI.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/4u/4uKPNU6OE2246v97WL9oo_NHag92vcugYgm4xM6keps.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/4w/4wrM2WSOQSdDxK_bGyQT5EQK9hYcE9hgVsj3NOCys5M.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/5G/5GNhonJcaynR94TmZryRCKoqxHx5LK9YXQ7fH1p4i-g.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/5P/5PTOvlKdSJzw1A1o7xD4FNVa6nvZ6yzQHc3ccxKXjHg.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/5T/5TDZXvAk9RdeV6vaqaNS9wxbjGc2yu3yrXTnwFuQYKU.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/5f/5f2TTorM418fiV_fsnwakI7n6Q-ZwTKuYEw0kqtuYNs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/5k/5kjty2M3xYh02dH6hfky9SJbGCYw6msENk1_ovh1FQ0.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/6k/6k6meOuX_dE5Dyjri_8i3-3vtNuptpts5dsT7MLfrlE.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/88/88PrrY9W23ZQPqveslulcKVRAEXEeLUeS8TV_ItGuAc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/BZ/BZI5au0eIy8kH9NqXySV8-RPtO9vzXtX_n0k0XJJlKQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Bh/Bh7RGiWnHTJ9hJu64O3klnk1NqrS9C9fnjJj4Xp9-Ws.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Bs/Bs1YChbLqk7QAFe7-BT5shLfXFOKLtHfe0HxWNMxJLI.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/C1/C1XSzSiv9ovF8rPV2F8Aak8CUotFr5NR8pHb0pouEjo.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/CN/CNp_2__D9uYepRX_NegIXw6VqE_6mJP_yovS0lwHdZw.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/D8/D8d5NBYmFJMzJUPX6iM_GjSPRQhUl0XFNxQETjDUuuo.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Dq/DqCkrgtTz-rlEXI96dJ47CiTUx50eW182Lfq1umyzGw.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Dx/DxdaL0T7u-s3JSjJRp8p-Rpln0GvN1owFwpgPnNfdjc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Dx/dX6xhn4D01_yyK8ZjWJnXMMjVyP7BC-3J9JpGCE1mk8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/F0/F0fvO22gbQofFzI511yjxTkuL42HxyqI4HRH2214umI.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/F4/F4SYX2fmFzNfZbTGMDuPyPAvRGsLaptrw2SKZVWMCMQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/GT/GT9-RF4GWul-P2OsRh3oSb2DskBKSNXWcYJ4HE7KDkc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/HR/HR6fv-V2pttAfHHdMi_W2mJAa2cIwgFgdQGfkgFsyDs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Hz/HZ2xwK--Ah4jlogqBfUELCPXEtxgyiJhxF9SGLT12Xs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Iz/Iz6IT5pbFxppdteLg4EC_n9G3Y83nn7kUhGxIpxAd_I.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/JJ/JJ3C-HS0c5yrswmmlBL0PTZWmuTe9SMayEhLcljc8FQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Je/JEyBIWJ2ezUx_gDF4Hq0RasTFk_tOYixknTmWi3Mgew.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Kh/kHALN9I1CRJECmEZqkaNll417NBE3qoLD-09OG4DuYg.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Lc/Lc2U-apFqbzMfyf0B2y5fnEfF-rDdcusRydumipWonA.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Lh/Lhm-xNTzjXSIhIXwtp9EunrOQaQBe-fK5IRTEPTNTCI.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/MC/MCSR_tlbxitUISCC5WgJilw8dfBrnFRjVuESnrE9uKc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/MQ/mq5Gj33FA1jpF3HIqTz6_iteu-K44yik4ZJZCxECuAw.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/O1/O1sOwMNGTIIe7Q8LUI7G5Oyd9yqTD27dXRDzUvo-4iY.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/PL/PLXirvESJwjFArJuTHixkH2TU9u8FBH0PJZJ4ZY2qx8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/QQ/QQwX7_USsaz1eLqAg4a8WPgTmHup7LNhzXcJE9lwNQ8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Rj/Rjbb74HW50X0q_RZYikaBJmjK5V5562uNu0NZ1pZvak.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Ro/Rop6ksJWUdE7OJnFPDyiNqYkDL2pV9JainZ8gN1SvRI.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/S2/S2NZVtNx4z_CalhRlZ2kuHlGpX_u6-10qlKmMLGVddc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/SK/SKWucCv2TbM6XlCt6t8rRf8rUi5qsx3YF3s2JwTw5lQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/S_/S_WZWBdc7srt71g5Ro84f1px7VTme-uGTfcpLasyRR8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Sm/SmpY0jTDRPGB20mJTJh92h84x_I7OAIW1ehzpoFcaDA.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/So/SoUg0WC-z-Kp5_2X-5kedclSZSW679pmt5C3EnnKApw.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Tq/Tq5UtogXabPjd7BOmhV79bxiPx4SHoT5YC5BwvmeNY0.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/U0/U0iA6O16naNRsjoVfXju5pKpmZ0Iz8dMx3tJUdwyvHc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/U2/U2OCSw1YOanU8lKAZvTG0x00Y0iEhWHzrS7ih86vGMg.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Uf/Uf0jy6LLURCHd-OL_Ya9iJAVYgLTzZJd-RbMahxSjDM.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Ul/Ul7vK-7t7alPMmEVwultFQmO1z6l3T0-KEwGp1vGUiY.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Uq/Uq5X2D381La1MNLfzhkDyPbaYXZkFl-6kDFyO41up1k.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/VX/VX5y2zXQQyTirafL-B3pLrTRPPo9q-ZGMMjrkoK_898.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/WV/WVFSYy33hBBwWxlzqoouojTiAsG_UGXMGzaZl3qRNGk.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/X3/X3SJaStmxkbZbeckP3pidVHBFqnZndWrklgqDOcwDRQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Xv/XvsgpzzAgebiUgAQH6hhnfJ9HFREtaPInvbVo8ox6-A.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Yx/YxdHFaQBywEhmYlOMCLhm6rWr8lz_nO0bFVoOK3VX9s.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Z-/Z-fABN3_K5ZwQnaP-W7FkmywIM8t_V8cZQL0N4oDs7w.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/Zz/Zzjg8I9TLWcg3v6upVZ3axXDdpsGnj_Ncv4U-xKa71k.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/_2/_2ykH1yXREyNIwHsP5J1RcGt6CCnNbLt_qD-JI376tg.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/_I/_Ib-xB-Oc38kJ2ePCt2FPoficqouO4srdn0x93KGKNU.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/b5/b5hE2gx8k5xAqWJWSsJOOqx5xtYe_ZqVXJBBHHUFKws.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/co/coxdMui1jkeS3CDse811Rf7ATmq1UXSdc3V8qYAr6E0.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/cr/cr0o1QMjMJI8WfjigQb-9xwgi_miC-f6sC3s1NcN4qs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/d9/d911oUu8W0ajt_Iat7OlZvI1b3z1bVxUSunxzkgUdrs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/f7/f7qsuaqVH_YJCF7NG56rq0eWoadC6ePg0VIpqKJQNBw.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/fN/fNDX-BrbvLma0-StXaoa3Ib-ZpLVto5c6mgTqdOoNgo.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/h3/h3RAdv7l_wp2_iNmqbt0roxHg20lLI9kWPSJFVJsk70.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/i4/i4ZtlHNoukFNMM3yCsXsZu1djkW3z7XQhdtWspwLHrY.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/j9/j9tN0G9BxIaDF9bLckBF5DtWaizPUEgPw7HJEPccpw4.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/kF/kFhRzsH0yrajwbQsqO_AiZKtNeq0mA4GFYXJOEW0CH8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/l-/l-vyQhrAO6FrH2nD_KNcytMUmzzZXeOhDnFgSj7Ax0k.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/lq/lqMuWSLyIPEZN0MxZIls5cu1g-9K-mju53oYfo3k0nU.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/m4/m4G18skkduBZ_GpHMOA5Tu8QAVl2GAnucvzYSdUMtH8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/mA/mAYCq08I440mad_KT3wcUzcD_ocjZYWf1Lj9FbWhWAs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/nr/nrojaSaDUvKPJVNj-nXzkVGPXgWx0lStOhn7tor_jGw.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/oB/oB4u7EMMm0PIw3WXBfftw43R9maTAfg80ZR585RFls8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/oJ/oJyZDA60XhjjZptz4cJN-buEbdPPwgXRvHEh5lD8XBQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/oh/ohb4fJmrfJlnBDqyJmclYuYEcfCQeysHe4UD3AAtMU8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/om/omUdFBPGEcMpaSVojocEi_z9WeD4wDPHYt07zCcZcUk.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/om/omy7j0KWajvfjnW22NyiBIto6_aljsHYmWr8vhxqeQQ.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/p0/p0QP_AO41ePLkQAbLxeQb_ZwrbzUnsG7AMCMMIvB52c.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/qg/qgZClRBsyJCWQ_scEQOJAXc-9nj5OOCiLokJOqsKl2E.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/qv/qvIP8FVl3Rdk_bM4ZTvYutcduEmQU1xDd8a7VbOqEn0.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/qx/qxjjdtNCjRWng-31qZckpPQyV4kUHBPZEsqmemN0HUE.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/r2/r2hHdv6FqoFb-hMKspETeYofnGI3gOr7g0T2D2zD83c.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/rB/RBlHLIPQC82r1V1T-v1Lm2I2X7p-Az1BnfpQx3XRVk8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/rB/rb2RTEgG9YEhunqJAQrYIC75gS2mmHLFJkb59knhmjc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/rC/rczIP0O01M5dit1i176nVUgfdHiB7Za3LMwdh3YE2Y4.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/sa/saSn_uMSGV_WlvFuCeuD-IUjKqTa5ZPFeJPLiOmy-vY.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/t7/t7kyc11B5VzoqFqYj_838QM9YV0WPAhOHGW-NYQ_mpc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/tV/tV7abeLEyipk5LJbcj_I9tGgW_cLjnJfh9VJqClV6lk.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/u6/u6JN3BtSDLEFAnwgr32ZKQ4zobN-tesEGU92FWl4mxM.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/u8/u8BqP6KQ1_MZ0wXlQj_IrdUJpB8IMobVCdBkaVNa94g.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/uG/uGATNeJanYhCpcTeR8_leZFLIwGEE9qp_wz7_yeSAH0.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/us/us-e73fd5y8sCURPVEnBZiqusgc0iL0FzoKg7Zb8MkI.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/v1/v1R8b06uUOTf7d0wMIhBVy0auAAXgDzh3lF5qVBsUCo.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/vD/vD-lZ4yIV-9ZNnMTnjGewgwkAD4SDsYlE1bFbac_J4E.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/wB/wbw6Qv0WPaDiAbr2m4HZOqQtNBWqIwy69jrbOmvfpgc.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/wN/wNZhVrXc6GZ0o0oH1nqbtWhng0D701CuetxqTheDJYU.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/we/weNPp2AdFlVRhTGfgmY4pixPUaydEZjW_edK26Ap92c.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/yp/yp1BGKidqQjOlMk4n5el4ft5Bb-z6VYXl8hz3nH_uNM.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/z6/z6FknzaujXywppnpIxkOzir1BKhNIi4KsvaLvSGoD_w.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/z7/z7X8EnEsmq7eKZuIbLx0u2-ldJ1CPnNv6lF1Cj8YyAs.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fitness/tmp/cache/assets/sprockets/v3.0/zD/zDSnBwSiLSKa3uCt4LzbY4zEbDiSiavIAcIyTF5KzXU.cache" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/m9/m9ODpNquzjn3etIRSmG-hbo1Ma3Q57KbS3PdNO-jNVs.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/m9/m9ODpNquzjn3etIRSmG-hbo1Ma3Q57KbS3PdNO-jNVs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FitnessPage.iml" afterPath="$PROJECT_DIR$/.idea/FitnessPage.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -23,38 +220,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main_page.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home_page/main_page.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="87" lean-forward="true" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_nav.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_nav.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="850">
+              <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guide.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/supplementation/guide.html.erb">
+      <file leaf-file-name="post.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/post.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -63,48 +260,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipes.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/nutrition/recipes.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="89">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nutrition_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/nutrition_helper.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="446">
+              <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nutrition_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/nutrition_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diet_guide.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/nutrition/diet_guide.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nutrition.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/nutrition.scss">
+      <file leaf-file-name="welcome.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -113,11 +290,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calorie_calculator.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/nutrition/calorie_calculator.html.erb">
+      <file leaf-file-name="users.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-769">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,6 +327,9 @@
       <find>mailer</find>
       <find>bc</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,15 +345,16 @@
         <option value="$PROJECT_DIR$/app/controllers/home_page_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/nutrition_helper.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home_page.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/home_page/main_page.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/nutrition_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/nutrition/diet_guide.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/nutrition/recipes.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
       </list>
     </option>
   </component>
@@ -171,10 +372,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="757" />
+    <option name="y" value="189" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -191,25 +392,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -219,11 +422,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -237,11 +440,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -251,43 +454,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -298,14 +469,62 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -323,11 +542,55 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sessions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,11 +608,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -367,11 +630,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -382,40 +645,14 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -429,87 +666,25 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concerns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jobs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -523,55 +698,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concerns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="channels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application_cable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -589,11 +720,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -607,11 +738,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FitnessPage" />
+              <option name="myItemId" value="Ruby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -627,11 +758,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,6 +790,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -686,13 +839,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -854,11 +1000,12 @@
       <workItem from="1494616703386" duration="52000" />
       <workItem from="1494616770430" duration="758000" />
       <workItem from="1494617705702" duration="13730000" />
+      <workItem from="1494750973282" duration="1575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22175000" />
+    <option name="totallyTimeSpent" value="23750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -870,27 +1017,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="757" y="189" width="1440" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19241573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4980695" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13767342" sideWeight="0.4958632" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112059765" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11063218" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13767342" sideWeight="0.84914714" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19423692" sideWeight="0.4726972" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13767342" sideWeight="0.4958632" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13767342" sideWeight="0.84914714" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -904,212 +1051,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_page_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home_page/main_page.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_page_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home_page/main_page.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_page_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home_page/main_page.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/supplementation_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/workout/exercise.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/puma.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170512213057_devise_create_models.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170512213057_devise_create_models.rb" />
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,35 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="98" lean-forward="false" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_page_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170512213554_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,15 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/workout_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,15 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,15 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,30 +1099,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home_page/main_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="87" lean-forward="true" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
+          <caret line="3" column="87" lean-forward="false" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
           <folding />
         </state>
       </provider>
@@ -1257,22 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/nutrition.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/nutrition_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/nutrition/recipes.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1289,18 +1150,298 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170510065908_create_comments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170513170937_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170512213554_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/comments.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home_page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="34" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/nutrition.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/posts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sessions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/supplementation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/workout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/workout/exercise.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/workout/plan.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/workout/program.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_page_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/nutrition_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="98" lean-forward="false" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/supplementation_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/workout_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-769">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_nav.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="850">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding />
         </state>
       </provider>
