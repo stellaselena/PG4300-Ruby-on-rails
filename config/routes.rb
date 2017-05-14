@@ -17,6 +17,10 @@ Rails.application.routes.draw do
 
   get 'home'  => 'home_page#main_page'
 
+  get 'contact_us'  => 'home_page#contact_us'
+
+
+
   root 'home_page#main_page'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
