@@ -19,27 +19,36 @@
 
 <% @post.comments.each do |comment| %>
     <p>
-      <strong><%= comment.commenter %></strong>
+      <strong><%= @user.id %></strong>
+
     </p>
     <p>
-      <strong><%= comment.body %></strong>
+      <%= comment.body %>
     </p>
 <% end %>
 
-<h2>Add a comment:</h2>
+<% if user_signed_in? %>
+  <h2>Add a comment:</h2>
 
-<%= form_for([@post, @post.comments.build]) do |form| %>
-    <p>
-      <%= form.label :commenter %><br />
-      <%= form.text_field :commenter %><br />
-    </p>
-    <p>
-      <%= form.label :body %><br />
-      <%= form.text_area :body %><br />
-    </p>
-    <p>
-      <%= form.submit %>
-    </p>
+  <%= form_for([@post, @post.comments.build]) do |form| %>
+      <p>
+        <%= form.label :commenter %><br />
+        <%= form.text_field :commenter %><br />
+      </p>
+      <p>
+        <%= form.label :body %><br />
+        <%= form.text_area :body %><br />
+      </p>
+      <p>
+        <%= form.submit %>
+      </p>
+<% end %>
+<% else %>
+    <h2>
+      Want to add a comment?
+      <%= link_to 'Sign in', new_user_session_path %>
+    </h2>
+
 <% end %>
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
