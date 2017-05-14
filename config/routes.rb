@@ -21,6 +21,7 @@ Rails.application.routes.draw do
 
   get 'home'  => 'home_page#main_page'
   #get 'posts' => 'posts#index'
+  #get 'sign_out' => 'devise/sessions#destroy'
 
   root 'home_page#main_page'
 
