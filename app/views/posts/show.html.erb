@@ -1,20 +1,15 @@
 <p id="notice"><%= notice %></p>
-
+<div class="jumbotron" >
 <p>
-  <strong>Title:</strong>
-  <%= @post.title %>
+  <strong><%= @post.title %></strong>
 </p>
 
 <p>
-  <strong>Description:</strong>
   <%= @post.description %>
 </p>
 
-<p>
-  <strong>User:</strong>
-  <%= @post.user_id %>
-</p>
 
+</div>
 <h2>Comments</h2>
 
 <% @post.comments.each do |comment| %>
