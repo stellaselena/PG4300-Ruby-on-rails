@@ -21468,3 +21468,2177 @@ Processing by NutritionController#diet_guide as HTML
 Completed 200 OK in 153ms (Views: 143.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/home" for 127.0.0.1 at 2017-05-14 19:16:37 +0200
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 160ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+  
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-14 19:16:37 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+  
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (6.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.5ms)
+Started GET "/guide" for 127.0.0.1 at 2017-05-14 19:16:42 +0200
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (4419.1ms)
+Processing by SupplementationController#guide as HTML
+  Rendering supplementation/guide.html.erb within layouts/application
+  Rendered supplementation/guide.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 173ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/diet_guide" for 127.0.0.1 at 2017-05-14 19:16:51 +0200
+Processing by NutritionController#diet_guide as HTML
+  Rendering nutrition/diet_guide.html.erb within layouts/application
+  Rendered nutrition/diet_guide.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/diet_guide" for 127.0.0.1 at 2017-05-14 20:17:28 +0200
+Processing by NutritionController#diet_guide as HTML
+  Rendering nutrition/diet_guide.html.erb within layouts/application
+  Rendered nutrition/diet_guide.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 157.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-05-14 20:17:29 +0200
+Processing by HomePageController#main_page as HTML
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-14 20:17:29 +0200
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  Rendering home_page/main_page.html.erb within layouts/application
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+  
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered home_page/main_page.html.erb within layouts/application (37.6ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 1414ms (Views: 1403.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (3.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (4303.7ms)
+Started GET "/" for 127.0.0.1 at 2017-05-14 20:43:31 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (363.7ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 571ms (Views: 552.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-14 20:43:41 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (8.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.4ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (799.9ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:43:49 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 159ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello/there?radios1=red" for 127.0.0.1 at 2017-05-14 20:44:05 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/hello/there"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (6.9ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (766.9ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:46:45 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:47:07 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 149ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:47:18 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 151ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:47:38 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:47:47 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 165ms (Views: 155.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:50:02 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 160ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:50:29 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 157ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:50:35 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 149ms (Views: 139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:50:56 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 155ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:51:24 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 156ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:53:44 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:53:59 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:54:24 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 143ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:54:35 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 162ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 20:54:57 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 155ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 22:44:10 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 172ms (Views: 161.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-14 22:46:16 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (374.9ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 604ms (Views: 583.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-14 22:46:27 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (8.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (861.0ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 22:46:31 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 191ms (Views: 180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-14 23:01:43 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 157ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-15 10:49:32 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (510.8ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 772ms (Views: 751.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-15 10:49:42 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (8.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.1ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (822.7ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 10:49:48 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 180ms (Views: 169.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 10:51:18 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 148ms (Views: 138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 10:52:53 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 158ms (Views: 147.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 10:52:55 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:02:52 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 150ms (Views: 139.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:03:16 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/calorie_calculator"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (7.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (774.7ms)
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:06:06 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BQJme3QTZ6pltNCnq9SkpfQJ+e8UA8cnrKIPlPfU6+fFb+KSw3iLdW6+X4OiJ2VMlDE6cspkc8LoFgoFb89XmA==", "age"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 165ms (Views: 155.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:06:07 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8AQbMgP3+IBpRlxfUPuQIwXs4H1fAJ1V9YtAhZNhihcwaZ/btJwUX2JM03tZCFHKZdQj4IFnKbCxP0UUC3o2aA==", "age"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:08:27 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2Y3FVl+33GcphzkFrZwEseAK4QOOWEmTnF3f95JFnEAZ4EG/6NwwuCKNtiGkb8VYgDIinlA//XbY6dpmCl4gPw==", "age"=>"454", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 150ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:08:30 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5tBloq3tlF4xYCCp7IC0HYobBpwzuYSKTLTYMWEPXyQmveFLGoZ4gTpqr43lc3X06iPFAe3eMG8IAN2g+RTjWw==", "age"=>"454", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 148ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:12:17 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 161ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:14:24 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:14:38 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 158ms (Views: 147.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:21:48 +0200
+  
+SyntaxError (C:/Users/sathi/Desktop/PG4300-Ruby-on-rails/app/controllers/nutrition_controller.rb:4: `@' without identifiers is not allowed as an instance variable name
+C:/Users/sathi/Desktop/PG4300-Ruby-on-rails/app/controllers/nutrition_controller.rb:4: syntax error, unexpected end-of-input):
+  
+app/controllers/nutrition_controller.rb:4: `@' without identifiers is not allowed as an instance variable name
+app/controllers/nutrition_controller.rb:4: syntax error, unexpected end-of-input
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (573.8ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:22:01 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 159ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:22:06 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lp+OqZw/t84tHCayUbG1B530z1sUtZlOkN1Fw3RYSN/u8gpAK1RbESYWqZZYQnTu/cwMxsrSLavUaUBS7EP0oA==", "age"=>"343", "height"=>"43", "weight"=>"43", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:23:28 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 152ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:23:32 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DhELIkeWN5phS/68b7MoZPAogaes4pom1nJtH7t6/OrOfI/L8P3bRWpBcZhmQOmNkBBCOnKFLsOSxmiOI2FAlQ==", "age"=>"", "height"=>"", "weight"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 149ms (Views: 139.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:18 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 156ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:20 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GoGkZAo3OhbSyK3Lu2Sm3kQ2LWhnNJ0LHbhZK2qJNNra7CCNvVzWydnCIu+yl2c3JA7u9blTKe5ZDFy68pKIpQ==", "age"=>"", "height"=>"", "weight"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:24 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yBM3jsBwYD/7E0z1zLT2ZBg5xNPeCOZn/sJRC45orqgIfrNndxuM4PAZw9HFRzeNeAEHTgBvUoK6dlSaFnMS1w==", "age"=>"22", "height"=>"", "weight"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:28 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P6VLPcfRXyd+pXhG71P3Y/mz0THqmfEMTfFfMMXinsf/yM/UcLqz+HWv92LmoDaKmYsSrDT+RekJRVqhXfkiuA==", "age"=>"22", "height"=>"22", "weight"=>"22", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 142.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:31 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XHIifMlh+gxAi9Auwu3fL6vJ2clJI1jog6PnsrzBPbScH6aVfgoW00uBXwrLHh7Gy/EaVJdE7A3HF+IjJNqByw==", "age"=>"3", "height"=>"22", "weight"=>"22", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 156ms (Views: 144.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:35 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"17TgFXLDXvW4cqVbpQMKyM2ZhK5+nuGn2Nc21jtgoeQX2WT8xaiyKrN4Kn+s8MshraFHM6D5VUKcYzNHo3sdmw==", "age"=>"3", "height"=>"22", "weight"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 159ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:36 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XvFgtq6oVF/LusC44KzWmysWWxp8hUUtigFNponC5+2enORfGcO4gMCwT5zpXxdySy6Yh6Li8cjOtUg3Edlbkg==", "age"=>"3", "height"=>"22", "weight"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 151ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:24:41 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qbsub9OHlhMcRZOv4cLvFITvdyymCHLuYkTN5sJWd/1p1qqGZOx6zBdPHIvoMS795Ne0sXhvxgsm8Mh3Wk3Lgg==", "age"=>"", "height"=>"", "weight"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:30:53 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 157ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:32:10 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 156ms (Views: 146.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:32:34 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:33:00 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 154ms (Views: 143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:33:26 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:37:12 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 165ms (Views: 154.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:37:21 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iltI9lYQ/FM8yIPGPGahArE+s6j843QZAonQ6osPLvtKNswf4XsQjDfCDOI1lWDr0QZwNSKEwPxGPdV7ExSShA==", "age"=>"", "height"=>"", "weight"=>"", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 150ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:37:29 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ANjRKD5c2xO1Y3fwCEgYe2EOHDL41vlYEY3IxRJ0VrbAtVXBiTc3zL5p+NQBu9mSATbfryaxTb1VOc1Uim/qyQ==", "age"=>"", "height"=>"", "weight"=>"97", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:37:33 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W7EarsTsige8SzRdZdQyJAnE/n2qgWH8n0TMJWn+7rSb3J5Hc4dm2LdBu3lsJ/PNafw94HTm1Rnb8Mm08eVSyw==", "age"=>"", "height"=>"55", "weight"=>"97", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 151ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:37:36 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N35dZAjoJpaFTT+yUFtYOyGbksAoNM5L9rykoutMfKn3E9mNv4PKSY5HsJZZqJnSQaNRXfZTeq6yCKEzc1fA1g==", "age"=>"22", "height"=>"55", "weight"=>"97", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 159ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:38:27 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.2ms)
+Completed 200 OK in 156ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:38:33 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ce5yFNzVn2Z9oKyms9p6ct+G8CVHhk8iKs5VMa0Qrsqxg/b9a75zuXaqI4K6Kbubv74zuJnh+8duelCgNQsStQ==", "age"=>"22", "height"=>"55", "weight"=>"11", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 164ms (Views: 153.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:38:36 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HZZD7DIs/lTJZdZYj65NpZdIALTt+FB+BmVsQbIGruXd+8cFhUcSi8JvWXyGXYxM93DDKTOf5JtC0WnQKh0Smg==", "age"=>"22", "height"=>"55", "weight"=>"11", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 166ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:41:50 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sna1PVA97IZoLRYLw3vzIMpYH78admkiSA/yvKlfMO9yGzHU51YAWWMnmS/KiDLJqmDcIsQR3ccMu/ctMUSMkA==", "age"=>"55", "height"=>"44", "weight"=>"11", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 181ms (Views: 170.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:43:33 +0200
+Processing by NutritionController#calorie_calculator as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/nutrition_controller.rb:21:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (572.2ms)
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:43:35 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BH/65A9nlqx59XMxfkdeQZnzGt2ELVedRF0Ijo+rfJXEEn4NuAx6c3L//BV3tJ+o+cvZQFpK43gA6Q0fF7DA6g==", "age"=>"55", "height"=>"44", "weight"=>"11", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 170ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:43:52 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mujBkh+JOf8ouUsRPs0NVJP4Cz/Pt71rToNJe+Zc5FhahUV7qOLVICOzxDU3Psy988DIohHQCY4KN0zqfkdYJw==", "age"=>"55", "height"=>"44", "weight"=>"11", "gender"=>"Female", "commit"=>"CALCULATE", "result"=>"4411"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 156ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 11:43:59 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XsPhtRlpbRATqIlCySqFT0VbqJPFaLYOht5H5ned2ZWermVcrgKBzxiiBmbA2USmJWNrDhsPAuvCakJ374Zl6g==", "age"=>"2", "height"=>"2", "weight"=>"11", "gender"=>"Female", "commit"=>"CALCULATE", "result"=>"4411"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 147ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:13:01 +0200
+Processing by NutritionController#calorie_calculator as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to' for nil:NilClass):
+  
+app/controllers/nutrition_controller.rb:23:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (577.5ms)
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:13:03 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9ihS78Td5cfTZ0f8174GHElZaWQZ19lVXewZKjTKFn42RdYGc7YJGNhtyNjeTcf1KWGq+cewbbAZWBy7rNGqAQ==", "age"=>"2", "height"=>"2", "weight"=>"11", "gender"=>"Female", "commit"=>"CALCULATE", "result"=>"211"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/nutrition_controller.rb:23:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (571.2ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:13:30 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 157ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:13:36 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qHLP6TWvjG1Bvr9InIHdj9ZV81xN0+zW63U+J3olPTpoH0sAgsRgskq0MGyVchxmtm0wwZO0WDOvwTu24j6BRQ==", "age"=>"33", "height"=>"2", "weight"=>"2", "gender"=>"Female", "commit"=>"CALCULATE", "result"=>"0"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:13:53 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 150ms (Views: 139.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:13:58 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w0HKANXjC9YAfeWxNJxAd/+fbHmVKsxfI9duvFWouBoDLE7pYojnCQt3apU9b4Gen6ev5EtNeLpnY2stzbMEZQ==", "age"=>"3", "height"=>"3", "weight"=>"3", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 160ms (Views: 148.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:23:32 +0200
+Processing by NutritionController#calorie_calculator as HTML
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `hi' for #<NutritionController:0x000000109ebc08>
+Did you mean?  h):
+  
+app/controllers/nutrition_controller.rb:24:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (629.1ms)
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:23:33 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+xJS5423WCRgHuEZCys9R0BvLM7vJFIwZI67Rw2p6Xo7f9YOOty0+2sUbj0C2PyuIFfvUzFD5tUgOr7WlbJVBQ==", "age"=>"3", "height"=>"3", "weight"=>"3", "gender"=>"Female", "commit"=>"CALCULATE"}
+Completed 500 Internal Server Error in 284ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `hi' for #<NutritionController:0x0000000cb9d5a0>
+Did you mean?  h):
+  
+app/controllers/nutrition_controller.rb:24:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (623.7ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:23:43 +0200
+Processing by NutritionController#calorie_calculator as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/nutrition_controller.rb:24:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (584.4ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:24:08 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 172ms (Views: 162.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:24:13 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XY9r75mu4e/RB0GkovcUmc5H8hrsCK/p+Q+YBjDxm3qd4u8GLsUNMNoNzoCrBNVwrn8xhzJvGwy9u52XqOonBQ==", "age"=>"", "height"=>"3", "weight"=>"3", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 179ms (Views: 168.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:26:13 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S61N3YhvZeJCF7JVNL/c0sBw5ktw/efI06ai7lhT+i2LwMk0PwSJPUkdPXE9TB07oEgl1q6aUy2XEqd/wEhGUg==", "age"=>"25", "height"=>"175", "weight"=>"60", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 169ms (Views: 158.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:26:54 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wh2/KXwp3nBUheOWaofz4lMfXV5xztC7sw9S1TLQPCYCcDvAy0Iyr1+PbLJjdDILMyeew6+pZF73u1dEqsuAWQ==", "age"=>"25", "height"=>"175", "weight"=>"60", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 175ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:26:58 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fzG5GcwxROCOy5OaYyPLlHo3ly7BXyfyWREdPGWtvOO/XD3we1qoP4XBHL5q0Ap9Gg9Usx84kxcdpRit/bYAnA==", "age"=>"25", "height"=>"175", "weight"=>"60", "gender"=>"Female", "commit"=>"CALCULATE"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Fixnum into String):
+  
+app/controllers/nutrition_controller.rb:25:in `+'
+app/controllers/nutrition_controller.rb:25:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (580.1ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:27:03 +0200
+Processing by NutritionController#calorie_calculator as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Fixnum into String):
+  
+app/controllers/nutrition_controller.rb:25:in `+'
+app/controllers/nutrition_controller.rb:25:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (573.7ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:28:07 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 176ms (Views: 166.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:28:12 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4n0CgL2y5oYfJ48w6xg8S5w7OLZMljSIHIMm3fZ4PQAiEIZpCtkKWRQtABTi6/2i/AP7K5LxgG1YNyNMbmOBfw==", "age"=>"5", "height"=>"5", "weight"=>"5", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 164ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:28:21 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L5Ngm1sW3187Q5JCsBkbTy0s7M4pWMLOsxx9uMMMvmnv/uRy7H0zgDBJHWa56tqmTRQvU/c/div3qHgpWxcCFg==", "age"=>"25", "height"=>"175", "weight"=>"60", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 163ms (Views: 152.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:29:46 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oBK/i9259J9S6LBGH/BRdZe1kOeYgexD/PX5oKAIraNgfztiatIYQFniP2IWA5Cc941TekbmWKa4QfwxOBMR3A==", "age"=>"25", "height"=>"175", "weight"=>"60", "gender"=>"Female", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:29:48 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KwD9rfhYXX2Qgi0aEfOewaUqAXJCNjNytd0MzzRhx9jrbXlETzOxopuIoj4YAF8oxRLC75xRh5fxaQlerHp7pw==", "age"=>"25", "height"=>"175", "weight"=>"60", "gender"=>"Male", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 155ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:39:33 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (187.0ms)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sedentary' for #<#<Class:0x00000010910f68>:0x000000108c7a48>):
+    14:     <%= label_tag :name, "Sex:" %></br>
+    15:     <%= radio_button_tag :gender, "Female", @female  %> Female</br>
+    16:     <%= radio_button_tag :gender, "Male", @male %>  Male</br>
+    17:     <%= radio_button_tag :activity, "Sedentary", sedentary  %> Sedentary</br>
+    18:     <%= radio_button_tag :activity, "Moderate", moderate %>  Moderate</br>
+    19:     <%= radio_button_tag :activity, "Very active", veryactive %>  Very Active</br>
+    20: 
+  
+app/views/nutrition/calorie_calculator.html.erb:17:in `block in _app_views_nutrition_calorie_calculator_html_erb__1904707925_138972160'
+app/views/nutrition/calorie_calculator.html.erb:7:in `_app_views_nutrition_calorie_calculator_html_erb__1904707925_138972160'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (570.3ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:41:24 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (192.3ms)
+Completed 500 Internal Server Error in 242ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sedentary' for #<#<Class:0x0000000d897be8>:0x0000000d8966d0>
+Did you mean?  @sedentary):
+    15:     <%= radio_button_tag :gender, "Female", @female  %> Female</br>
+    16:     <%= radio_button_tag :gender, "Male", @male %>  Male</br>
+    17:     <%= label_tag :name, "Activity level:" %></br>
+    18:     <%= radio_button_tag :activity, "Sedentary", sedentary  %> Sedentary</br>
+    19:     <%= radio_button_tag :activity, "Moderate", moderate %>  Moderate</br>
+    20:     <%= radio_button_tag :activity, "Very active", veryactive %>  Very Active</br>
+    21: 
+  
+app/views/nutrition/calorie_calculator.html.erb:18:in `block in _app_views_nutrition_calorie_calculator_html_erb__1904707925_107512440'
+app/views/nutrition/calorie_calculator.html.erb:7:in `_app_views_nutrition_calorie_calculator_html_erb__1904707925_107512440'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (580.9ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:42:10 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 156ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:43:49 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 174ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:43:58 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 170ms (Views: 159.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:44:10 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mSzEJWGNQOojX4MEV8bEfn7NTm3yfZSIyRxjSHlBfnBZQUDM1uasNShVDCBeNQWXHvWN8CwaIG2NqGbZ4VrCDw==", "age"=>"", "height"=>"", "weight"=>"", "gender"=>"Female", "activity"=>"Sedentary", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 170ms (Views: 159.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:44:25 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mt+D95KfkfzLhEyZDYjIAg72RyoBBO8AyXBS57PqB4XysgceJfR9I8COw70Eewnrbs6Et99jW+WNxFd2K/G7+g==", "age"=>"22", "height"=>"140", "weight"=>"55", "gender"=>"Female", "activity"=>"Moderate", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 153ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:44:34 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 161ms (Views: 151.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:47:15 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 153ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:47:27 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+6jBezQBv7JQ6G5HZKPz33XU18SLtFDNYSSs74Hofyk7xUWSg2pTbVvi4WNtUDI2FewUWVXT5CglkKl+GfPDVg==", "age"=>"22", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Sedentary", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 161ms (Views: 149.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:47:30 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fRfCFwvGaqK9KMXUhQbUyo8gTLk/+d+XF1Yp0qM9Wiu9ekb+vK2GfbYiSvCM9RUj7xiPJOGea3JT4ixDOybmVA==", "age"=>"22", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Moderate", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:48:39 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 160ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:48:47 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MtzbVZBFPiteYRQFmDbpPTxtgwtC0bBkTHmeinaWX33ysV+8Jy7S9FVrmyGRxSjUXFVAlpy2BIEIzZsb7o3jAg==", "age"=>"22", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Sedentary", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:49:00 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MuBq5pflkb3pHozAcwt1T7tJAb1WSgNtbIjBxmkoQ5Xyje4PII59YuIUA+R6+LSm23HCIIgtt4goPMRX8TP/6g==", "age"=>"22", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Moderate", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 165ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:49:52 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 152ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:50:08 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"59T/o4UHdhFH9IyXgFUj0qG3iWaPQykD2OGSRbs07kgnuXtKMmyazkz+A7OJpuI7wY9K+1EkneacVZfUIy9SNw==", "age"=>"20", "height"=>"175", "weight"=>"60", "gender"=>"Female", "activity"=>"Sedentary", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:50:10 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vaxPfk8GbEhETYlXhP4jegXkaK+kWBHk8j2yi2XhbJF9wcuX+G2Al09HBnONDeKTZdyrMno/pQG2ibca/frQ7g==", "age"=>"20", "height"=>"175", "weight"=>"60", "gender"=>"Female", "activity"=>"Moderate", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:50:12 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l39bpkbu/9Kjs39cVgfH8XwjYjKB2PVa0+1bOUbiGN5XEt9P8YUTDai58Hhf9AYYHBuhr1+/Qb+XWV6o3vmkoQ==", "age"=>"20", "height"=>"175", "weight"=>"60", "gender"=>"Female", "activity"=>"Very active", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 159ms (Views: 149.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:50:52 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g4jB3jVx3xaVZz+nbardEtwF8Go7S6iwaKGoYgw64TdD5UU3ghozyZ5tsINkWRz7vD0z9+UsHFUsFa3zlCFdSA==", "age"=>"20", "height"=>"175", "weight"=>"60", "gender"=>"Female", "activity"=>"Very active", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 160ms (Views: 145.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:50:54 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CcozgUpoyW9LOAaST8SqKGC25BvnpN7QD1J2ut0+POzJp7do/QMlsEAyibZGN2vBAI4nhjnDajVL5nMrRSWAkw==", "age"=>"20", "height"=>"175", "weight"=>"60", "gender"=>"Female", "activity"=>"Very active", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 153ms (Views: 142.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-05-15 12:51:13 +0200
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+  
+  
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-15 12:51:14 +0200
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (7.1ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:51:19 +0200
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+Processing by NutritionController#calorie_calculator as HTML
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (4460.1ms)
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 1511ms (Views: 1500.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:55:08 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:55:33 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 156ms (Views: 145.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:56:09 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 169ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:56:24 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 155ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 12:56:46 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 151ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:02:13 +0200
+  
+SyntaxError (C:/Users/sathi/Desktop/PG4300-Ruby-on-rails/app/controllers/nutrition_controller.rb:77: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/nutrition_controller.rb:77: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (574.3ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:02:35 +0200
+  
+SyntaxError (C:/Users/sathi/Desktop/PG4300-Ruby-on-rails/app/controllers/nutrition_controller.rb:74: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/nutrition_controller.rb:74: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (574.4ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:02:50 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 166ms (Views: 155.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:02:59 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gwkdeyw8VkmPjSHsbLjSkxVVh29mIACBA9N8Iyv9FzDbZJmSm1e6loSHrshlSxN6dW1E8rhHtGRHZ3mys+arTw==", "age"=>"25", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Sedentary", "goal"=>"Fat Loss", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 152ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:03:02 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yVLdFNBfNw7x8OuUhjN1hKCnu+dhaqbPoCnA3cv3i9AJP1n9ZzTb0fr6ZLCPwLRtwJ94er8NEirkncVMU+w3rw==", "age"=>"25", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Sedentary", "goal"=>"Maintenance", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 156ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:03:04 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ge7EXw6vZ9cBhHENPD+bX0YaJzADmZtCSWqchdSeFT3Zg0C2ucSLCAqO/ik1zFq2JiLkrd3+L6cN3pkUTIWpQg==", "age"=>"25", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Sedentary", "goal"=>"Muscle gains ", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 160ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:03:18 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 161ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:03:26 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1+YL6JnVZJoxFJqFnbd7xRhEOYg1XDwoQxWC4EjZvE7MhzGFQy5TWPO3U4fhRwGdFnTe/6yxBXluFOaGTjajg==", "age"=>"20", "height"=>"170", "weight"=>"60", "gender"=>"Female", "activity"=>"Sedentary", "goal"=>"Fat Loss", "commit"=>"CALCULATE"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Fixnum):
+  
+app/controllers/nutrition_controller.rb:56:in `%'
+app/controllers/nutrition_controller.rb:56:in `calorie_calculator'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (580.8ms)
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:03:37 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-05-15 13:03:59 +0200
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 145ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-15 13:03:59 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.2) lib/rack/method_override.rb:22:in `call'
+rack (2.0.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.2) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [40 times] (200.4ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+Started GET "/guide" for 127.0.0.1 at 2017-05-15 13:04:03 +0200
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (4262.4ms)
+Processing by SupplementationController#guide as HTML
+  Rendering supplementation/guide.html.erb within layouts/application
+  Rendered supplementation/guide.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 163ms (Views: 152.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:04:38 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 134ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:05:36 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 152ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:06:10 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 169ms (Views: 158.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:06:20 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A+7s54NGXoHZLa/XaISWUbhfMa6mbBRS18+7VIpzj2rDg2gONC2yXtInIPNhd1e42GfyM3gLoLeTe77FEmgzFQ==", "age"=>"20", "height"=>"700", "weight"=>"500", "gender"=>"Female", "activity"=>"Sedentary", "goal"=>"Fat Loss", "commit"=>"CALCULATE"}
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 168ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:07:28 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 159ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:08:17 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 153ms (Views: 143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:08:29 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 163ms (Views: 152.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:08:46 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 152ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:09:00 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 151ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:09:56 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 161ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:10:49 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 160ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:11:02 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:11:15 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 159ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:13:20 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 152ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:13:53 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 164ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:14:25 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 154ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calorie_calculator" for 127.0.0.1 at 2017-05-15 13:15:30 +0200
+Processing by NutritionController#calorie_calculator as HTML
+  Rendering nutrition/calorie_calculator.html.erb within layouts/application
+  Rendered nutrition/calorie_calculator.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 152ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+

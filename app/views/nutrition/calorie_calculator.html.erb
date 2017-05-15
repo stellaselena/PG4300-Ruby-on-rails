@@ -1,2 +1,82 @@
-<h1>Nutrition#calorie_calculator</h1>
-<p>Find me in app/views/nutrition/calorie_calculator.html.erb</p>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="jumbotron">
+      <h1>CALORIE CALCULATOR</h1>
+      <p>Developed with the goal of providing TDEE values for a wider range of body types and lifestyles
+      </p>
+
+      <%= image_tag("recipes-banner.png", class: "img-fluid", :alt => "banner", :width => "100%", :height => "100%") %>
+
+
+    </div>
+  </div>
+
+</div>
+<div class="col-xs-10">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <h1>Calorie calculator</h1>
+      <p>Your body needs energy to carry out daily activities. This energy comes from the foods we eat. These foods are
+        measured in units of calories.
+        The following calculator is to be used for maintenance.</p>
+      <br>
+      <%= @error_msg %>
+      <%= form_for calorie_calculator_path, :method => "POST" do %>
+          <%= label_tag :name, "Age:" %></br>
+          <%= number_field_tag :age, @age %></br></br>
+          <%= label_tag :name, "Height: (in cm)" %></br>
+          <%= number_field_tag :height, @height %></br></br>
+          <%= label_tag :name, "Weight: (in kg)" %></br>
+          <%= number_field_tag :weight, @weight %></br></br>
+          <%= label_tag :name, "Sex:" %></br>
+          <%= radio_button_tag :gender, "Female", @female, checked: true %> Female</br>
+          <%= radio_button_tag :gender, "Male", @male %>  Male</br></br>
+          <%= label_tag :name, "Activity level:" %></br>
+          <%= radio_button_tag :activity, "Sedentary", @sedentary, checked: true %> Sedentary</br>
+          <%= radio_button_tag :activity, "Moderate", @moderate %>  Moderate</br>
+          <%= radio_button_tag :activity, "Very active", @veryactive %>  Very Active</br></br>
+          <%= label_tag :name, "Goal:" %></br>
+          <%= radio_button_tag :goal, "Fat Loss", @fatloss, checked: true %> Fat Loss</br>
+          <%= radio_button_tag :goal, "Maintenance", @maintenance %>  Maintenance</br>
+          <%= radio_button_tag :goal, "Muscle gains ", @musclegains %>  Muscle gains</br>
+          </br>
+          <%= submit_tag "CALCULATE" %>
+          </br></br>
+
+
+      <% end %>
+
+    </div>
+  </div>
+</div>
+<div class="col-xs-2">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <p>TDEE is short for Total Daily Energy Expenditure. This is the amount calories your body burns in a 24 hour period.</p>
+      <p>The Harris Benedict Equation is a formula that uses your BMR and then applies an activity factor to determine
+        your total daily energy expenditure (calories). </p>
+      <p>The only factor omitted by the Harris Benedict Equation is lean body mass. Remember, leaner bodies need more
+        calories than less leaner ones. </p>
+      <p>Therefore, this equation will be very accurate in all but the very muscular (will under-estimate calorie needs)
+        and the very fat (will over-estimate calorie needs).</p>
+
+
+    </div>
+  </div>
+</div>
+<div class="col-xs-10">
+  <div class="panel panel-default">
+    <div class="panel-body">
+
+
+      <h2><%= label_tag :result, @result %></br></h2>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+

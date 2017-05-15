@@ -3,7 +3,11 @@ Rails.application.routes.draw do
   devise_for :models, controllers: {registrations: "registrations"}
   get 'guide' => 'supplementation#guide'
 
-  get 'calorie_calculator'  => 'nutrition#calorie_calculator'
+  # get 'calorie_calculator'  => 'nutrition#calorie_calculator'
+  #
+  # post 'calorie_calculator'  => 'nutrition#calorie_calculator'
+
+  match 'calorie_calculator' => 'nutrition#calorie_calculator', :via => [:post, :get]
 
   get 'recipes'  => 'nutrition#recipes'
 
