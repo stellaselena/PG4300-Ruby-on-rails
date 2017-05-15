@@ -31,6 +31,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
+gem 'haml', '~> 5.0', '>= 5.0.1'
+
+gem 'simple_form', '~> 3.4'
+
 
 
 # Use Capistrano for deployment

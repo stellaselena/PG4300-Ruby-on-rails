@@ -2,9 +2,12 @@ Rails.application.routes.draw do
   devise_for :users
   devise_for :models, controllers: {registrations: "registrations"}
   resources :users
+  resources :workouts
   resources :posts do
     resources :comments
   end
+
+  get 'workout_log' => 'workouts#index'
   get 'guide' => 'supplementation#guide'
 
   # get 'calorie_calculator'  => 'nutrition#calorie_calculator'
@@ -28,7 +31,6 @@ Rails.application.routes.draw do
   #get 'sign_out' => 'devise/sessions#destroy'
 
   get 'contact_us'  => 'home_page#contact_us'
-
 
 
   root 'home_page#main_page'
