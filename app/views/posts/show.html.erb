@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+<div class="jumbotron" >
+<p>
+  <strong><%= @post.title %></strong>
+</p>
+
+<p>
+  <%= @post.description %>
+</p>
+
+
+</div>
+<h2>Comments</h2>
+
+<% @post.comments.each do |comment| %>
+    <p>
+      <strong><%= @user.id %></strong>
+
+    </p>
+    <p>
+      <%= comment.body %>
+    </p>
+<% end %>
+
+<% if user_signed_in? %>
+  <h2>Add a comment:</h2>
+
+  <%= form_for([@post, @post.comments.build]) do |form| %>
+      <p>
+        <%= form.label :commenter %><br />
+        <%= form.text_field :commenter %><br />
+      </p>
+      <p>
+        <%= form.label :body %><br />
+        <%= form.text_area :body %><br />
+      </p>
+      <p>
+        <%= form.submit %>
+      </p>
+<% end %>
+<% else %>
+    <h2>
+      Want to add a comment?
+      <%= link_to 'Sign in', new_user_session_path %>
+    </h2>
+
+<% end %>
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>

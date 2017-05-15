@@ -1,0 +1,29 @@
+<body>
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+
+  <tbody>
+    <% @posts.each do |post| %>
+        <div class="jumbotron" >
+      <tr class="<%= cycle('list_odd','list_even')%>" >
+        <h4><%= link_to post.title, post %></h4></br>
+        <td><strong>By:</strong><%= post.user_id %></td>
+        <% if user_signed_in? %>
+          <td><%= link_to 'Edit', edit_post_path(post) %></td>
+          <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
+
+      </tr>
+        </div>
+    <% end %>
+
+  </tbody>
+
+<br>
+<% if user_signed_in? %>
+  <%= link_to 'New Post', new_post_path %>
+<% end %>
+
+</body>
