@@ -34,32 +34,32 @@ class NutritionController < ApplicationController
     a = @age.to_i
     if (@female)
       @calculate = 655 + (9.6 * w) + (1.8 * h) - (4.7 * a)
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
     else
       @calculate = 66 + (13.7 * w) + (5 * h) - (6.8 * a)
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
     end
 
     if (@sedentary)
       @calculate = @calculate * 1.2
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
     elsif (@moderate)
       @calculate = @calculate * 1.55
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
     else
       @calculate = @calculate * 1.725
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
     end
 
     if (@fatloss)
       @calculate = @calculate - 500
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
     elsif (@maintenance)
       @calculate = @calculate
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
     else
       @calculate = @calculate + 500
-      @result = "Your estimated TDEE: #{@calculate.to_i}"
+      @result = @calculate.to_i
 
     end
   end

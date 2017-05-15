@@ -5,7 +5,7 @@
       <p>Developed with the goal of providing TDEE values for a wider range of body types and lifestyles
       </p>
 
-      <%= image_tag("recipes-banner.png", class: "img-fluid", :alt => "banner", :width => "100%", :height => "100%") %>
+      <%= image_tag("ccbanner.png", class: "img-fluid", :alt => "banner", :width => "100%", :height => "100%") %>
 
 
     </div>
@@ -52,7 +52,8 @@
 <div class="col-xs-2">
   <div class="panel panel-default">
     <div class="panel-body">
-      <p>TDEE is short for Total Daily Energy Expenditure. This is the amount calories your body burns in a 24 hour period.</p>
+      <p>TDEE is short for Total Daily Energy Expenditure. This is the amount calories your body burns in a 24 hour
+        period.</p>
       <p>The Harris Benedict Equation is a formula that uses your BMR and then applies an activity factor to determine
         your total daily energy expenditure (calories). </p>
       <p>The only factor omitted by the Harris Benedict Equation is lean body mass. Remember, leaner bodies need more
@@ -69,7 +70,7 @@
     <div class="panel-body">
 
 
-      <h2><%= label_tag :result, @result %></br></h2>
+      <h2>Your estimated TDD is: <%= label_tag :result, @result %></br></h2>
 
 
     </div>
