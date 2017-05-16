@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   devise_for :models, controllers: {registrations: "registrations"}
   resources :users
+  resources :main_exercises
   resources :workouts do
     resources :exercises
 
@@ -10,6 +11,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  get 'exercises' => 'main_exercises#index'
   get 'workout_log' => 'workouts#index'
   get 'guide' => 'supplementation#guide'
 
