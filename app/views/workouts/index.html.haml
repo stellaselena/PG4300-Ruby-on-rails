@@ -1,7 +1,16 @@
-#index_workouts
-  = link_to "Add new workout", new_workout_path
+.jumbotron
+  .container
+    %h1{:style=>'text-align: center'} WORKOUT LOG
+    =image_tag "workoutlog_logores.png"
+.jumbotron
+  .container
+  #index_workouts
   - @workouts.each do |workout|
-    %h2= link_to workout.date.strftime("%A %B %d"), workout
-    %h3
+    %h1= link_to workout.date.strftime("%A %B %d"), workout
+    %h2
       %span Workout:
       = workout.workout
+
+.jumbotron
+  .container
+  %h3= link_to "Add new workout", new_workout_path
