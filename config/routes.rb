@@ -2,7 +2,10 @@ Rails.application.routes.draw do
   devise_for :users
   devise_for :models, controllers: {registrations: "registrations"}
   resources :users
-  resources :workouts
+  resources :workouts do
+    resources :exercises
+
+  end
   resources :posts do
     resources :comments
   end
