@@ -35,6 +35,10 @@ gem 'haml', '~> 5.0', '>= 5.0.1'
 
 gem 'simple_form', '~> 3.4'
 
+gem 'paperclip', '~> 5.1'
+
+gem 'cocoon', '~> 1.2', '>= 1.2.10'
+
 
 
 # Use Capistrano for deployment

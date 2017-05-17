@@ -1,0 +1,91 @@
+                   Prefix Verb     URI Pattern                                        Controller#Action
+         new_user_session GET      /users/sign_in(.:format)                           devise/sessions#new
+             user_session POST     /users/sign_in(.:format)                           devise/sessions#create
+     destroy_user_session DELETE   /users/sign_out(.:format)                          devise/sessions#destroy
+        new_user_password GET      /users/password/new(.:format)                      devise/passwords#new
+       edit_user_password GET      /users/password/edit(.:format)                     devise/passwords#edit
+            user_password PATCH    /users/password(.:format)                          devise/passwords#update
+                          PUT      /users/password(.:format)                          devise/passwords#update
+                          POST     /users/password(.:format)                          devise/passwords#create
+ cancel_user_registration GET      /users/cancel(.:format)                            devise/registrations#cancel
+    new_user_registration GET      /users/sign_up(.:format)                           devise/registrations#new
+   edit_user_registration GET      /users/edit(.:format)                              devise/registrations#edit
+        user_registration PATCH    /users(.:format)                                   devise/registrations#update
+                          PUT      /users(.:format)                                   devise/registrations#update
+                          DELETE   /users(.:format)                                   devise/registrations#destroy
+                          POST     /users(.:format)                                   devise/registrations#create
+        new_model_session GET      /models/sign_in(.:format)                          devise/sessions#new
+            model_session POST     /models/sign_in(.:format)                          devise/sessions#create
+    destroy_model_session DELETE   /models/sign_out(.:format)                         devise/sessions#destroy
+       new_model_password GET      /models/password/new(.:format)                     devise/passwords#new
+      edit_model_password GET      /models/password/edit(.:format)                    devise/passwords#edit
+           model_password PATCH    /models/password(.:format)                         devise/passwords#update
+                          PUT      /models/password(.:format)                         devise/passwords#update
+                          POST     /models/password(.:format)                         devise/passwords#create
+cancel_model_registration GET      /models/cancel(.:format)                           registrations#cancel
+   new_model_registration GET      /models/sign_up(.:format)                          registrations#new
+  edit_model_registration GET      /models/edit(.:format)                             registrations#edit
+       model_registration PATCH    /models(.:format)                                  registrations#update
+                          PUT      /models(.:format)                                  registrations#update
+                          DELETE   /models(.:format)                                  registrations#destroy
+                          POST     /models(.:format)                                  registrations#create
+                    users GET      /users(.:format)                                   users#index
+                          POST     /users(.:format)                                   users#create
+                 new_user GET      /users/new(.:format)                               users#new
+                edit_user GET      /users/:id/edit(.:format)                          users#edit
+                     user GET      /users/:id(.:format)                               users#show
+                          PATCH    /users/:id(.:format)                               users#update
+                          PUT      /users/:id(.:format)                               users#update
+                          DELETE   /users/:id(.:format)                               users#destroy
+           main_exercises GET      /main_exercises(.:format)                          main_exercises#index
+                          POST     /main_exercises(.:format)                          main_exercises#create
+        new_main_exercise GET      /main_exercises/new(.:format)                      main_exercises#new
+       edit_main_exercise GET      /main_exercises/:id/edit(.:format)                 main_exercises#edit
+            main_exercise GET      /main_exercises/:id(.:format)                      main_exercises#show
+                          PATCH    /main_exercises/:id(.:format)                      main_exercises#update
+                          PUT      /main_exercises/:id(.:format)                      main_exercises#update
+                          DELETE   /main_exercises/:id(.:format)                      main_exercises#destroy
+        workout_exercises GET      /workouts/:workout_id/exercises(.:format)          exercises#index
+                          POST     /workouts/:workout_id/exercises(.:format)          exercises#create
+     new_workout_exercise GET      /workouts/:workout_id/exercises/new(.:format)      exercises#new
+    edit_workout_exercise GET      /workouts/:workout_id/exercises/:id/edit(.:format) exercises#edit
+         workout_exercise GET      /workouts/:workout_id/exercises/:id(.:format)      exercises#show
+                          PATCH    /workouts/:workout_id/exercises/:id(.:format)      exercises#update
+                          PUT      /workouts/:workout_id/exercises/:id(.:format)      exercises#update
+                          DELETE   /workouts/:workout_id/exercises/:id(.:format)      exercises#destroy
+                 workouts GET      /workouts(.:format)                                workouts#index
+                          POST     /workouts(.:format)                                workouts#create
+              new_workout GET      /workouts/new(.:format)                            workouts#new
+             edit_workout GET      /workouts/:id/edit(.:format)                       workouts#edit
+                  workout GET      /workouts/:id(.:format)                            workouts#show
+                          PATCH    /workouts/:id(.:format)                            workouts#update
+                          PUT      /workouts/:id(.:format)                            workouts#update
+                          DELETE   /workouts/:id(.:format)                            workouts#destroy
+            post_comments GET      /posts/:post_id/comments(.:format)                 comments#index
+                          POST     /posts/:post_id/comments(.:format)                 comments#create
+         new_post_comment GET      /posts/:post_id/comments/new(.:format)             comments#new
+        edit_post_comment GET      /posts/:post_id/comments/:id/edit(.:format)        comments#edit
+             post_comment GET      /posts/:post_id/comments/:id(.:format)             comments#show
+                          PATCH    /posts/:post_id/comments/:id(.:format)             comments#update
+                          PUT      /posts/:post_id/comments/:id(.:format)             comments#update
+                          DELETE   /posts/:post_id/comments/:id(.:format)             comments#destroy
+                    posts GET      /posts(.:format)                                   posts#index
+                          POST     /posts(.:format)                                   posts#create
+                 new_post GET      /posts/new(.:format)                               posts#new
+                edit_post GET      /posts/:id/edit(.:format)                          posts#edit
+                     post GET      /posts/:id(.:format)                               posts#show
+                          PATCH    /posts/:id(.:format)                               posts#update
+                          PUT      /posts/:id(.:format)                               posts#update
+                          DELETE   /posts/:id(.:format)                               posts#destroy
+                exercises GET      /exercises(.:format)                               main_exercises#index
+              workout_log GET      /workout_log(.:format)                             workouts#index
+                    guide GET      /guide(.:format)                                   supplementation#guide
+       calorie_calculator POST|GET /calorie_calculator(.:format)                      nutrition#calorie_calculator
+                  recipes GET      /recipes(.:format)                                 nutrition#recipes
+               diet_guide GET      /diet_guide(.:format)                              nutrition#diet_guide
+                     plan GET      /plan(.:format)                                    workout#plan
+                  program GET      /program(.:format)                                 workout#program
+                 exercise GET      /exercise(.:format)                                workout#exercise
+                     home GET      /home(.:format)                                    home_page#main_page
+               contact_us GET      /contact_us(.:format)                              home_page#contact_us
+                     root GET      /                                                  home_page#main_page

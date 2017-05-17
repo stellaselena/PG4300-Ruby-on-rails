@@ -43,7 +43,7 @@ class MainExercisesController < ApplicationController
   private
 
   def exercise_params
-    params.require(:main_exercise).permit(:title, :description)
+    params.require(:main_exercise).permit(:title, :description, :image, directions_attributes: [:id, :step, :_destroy])
 
   end
 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170516201346) do
+ActiveRecord::Schema.define(version: 20170517154912) do
 
   create_table "comments", force: :cascade do |t|
     t.string   "commenter"
@@ -19,6 +19,14 @@ ActiveRecord::Schema.define(version: 20170516201346) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["post_id"], name: "index_comments_on_post_id"
+  end
+
+  create_table "directions", force: :cascade do |t|
+    t.text     "step"
+    t.integer  "main_exercise_id"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.index ["main_exercise_id"], name: "index_directions_on_main_exercise_id"
   end
 
   create_table "exercises", force: :cascade do |t|
@@ -35,8 +43,12 @@ ActiveRecord::Schema.define(version: 20170516201346) do
     t.string   "title"
     t.text     "description"
     t.integer  "user_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "models", force: :cascade do |t|

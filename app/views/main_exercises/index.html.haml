@@ -1,2 +1,10 @@
-- @exercise.each do |exercise|
-  %h2= link_to exercise.title, exercise
+%h3= link_to "Add new exercise", new_main_exercise_path
+- @exercise.each_slice(3) do |exercises|
+  .row
+    - exercises.each do |exercise|
+      .col-md-4
+        .exercise
+          .image_wrapper
+            = link_to exercise do
+              = image_tag exercise.image.url(:medium)
+          %h2= link_to exercise.title, exercise
