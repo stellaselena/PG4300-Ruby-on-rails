@@ -32,6 +32,11 @@ body {
   background: linear-gradient(90deg, #616161 10%, #9bc5c3 90%); /* W3C */
 }
 
+.jumbotron {
+  background: rgb(61, 61, 61); /* This is for ie8 and below */
+  background: rgba(61, 61, 61, 0.1);
+}
+
 .main_content {
   padding: 0 0 50px 0;
 }

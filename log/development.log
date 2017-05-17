@@ -36021,3 +36021,1015 @@ Processing by MainExercisesController#show as HTML
 Completed 200 OK in 200ms (Views: 187.9ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-05-17 21:03:50 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (912.7ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 1242ms (Views: 1217.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-17 21:04:01 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [90 times] (19.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (954.6ms)
+Started GET "/exercise" for 127.0.0.1 at 2017-05-17 21:04:06 +0200
+Processing by WorkoutController#exercise as HTML
+  Rendering workout/exercise.html.erb within layouts/application
+  Rendered workout/exercise.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 234ms (Views: 219.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 21:04:15 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (16.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 223ms (Views: 203.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/4" for 127.0.0.1 at 2017-05-17 21:04:16 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 4]]
+  Rendered main_exercises/show.html.haml within layouts/application (28.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 227ms (Views: 217.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/5" for 127.0.0.1 at 2017-05-17 21:04:19 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (1.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 5]]
+  Rendered main_exercises/show.html.haml within layouts/application (12.6ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 220ms (Views: 204.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:04:42 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (5.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 203ms (Views: 190.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:06:27 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (1.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (5.0ms)
+Started GET "/home" for 127.0.0.1 at 2017-05-17 21:06:29 +0200
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (42.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 5298ms (Views: 5284.2ms | ActiveRecord: 1.0ms)
+
+
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 4494ms (Views: 4466.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-05-17 21:06:36 +0200
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 204ms (Views: 195.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-17 21:06:36 +0200
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+Started GET "/exercises" for 127.0.0.1 at 2017-05-17 21:06:39 +0200
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [90 times] (20.3ms)
+Processing by MainExercisesController#index as HTML
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering main_exercises/index.html.haml within layouts/application
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5416.2ms)
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (1220.9ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 4352ms (Views: 3960.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:06:48 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (3.5ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 218ms (Views: 216.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/10/edit" for 127.0.0.1 at 2017-05-17 21:07:50 +0200
+Processing by MainExercisesController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/edit.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/_direction_fields.html.haml (4.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (3.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (2.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (0.0ms)
+  Rendered main_exercises/_form.html.haml (146.4ms)
+  Rendered main_exercises/edit.html.haml within layouts/application (146.9ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 344ms (Views: 334.9ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:08:11 +0200
+Processing by MainExercisesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hfn+TqlPMbj7228CpUNQqHX4q52czB0sqzULZEnrH95vg30oM0y/4vfhb26C99Cy0OipKDAbdQivbM08HX5BQQ==", "main_exercise"=>{"title"=>"ROMANIAN DEADLIFT", "description"=>"One of the best exercises to really hammer the hammies is the Romanian deadlift (RDL). A recent EMG study demonstrated the superiority of the RDL in hamstring activation as compared to the leg curl, the glute-ham raise (GHR), and good mornings.", "directions_attributes"=>{"0"=>{"step"=>"Walk to the bar. Stand with your mid-foot under the bar. Your shins shouldn’t touch it yet. Put your heels hip-width apart, narrower than on Squats. Point your toes out 15°.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"1"}, "1"=>{"step"=>"Grab the bar. Bend over without bending your legs. Grip the bar narrow, about shoulder-width apart like on the Overhead Press. Your arms must be vertical when looking from the front.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"2"}, "2"=>{"step"=>"Bend your knees. Drop into position by bending your knees until your shins touch the bar. Do NOT let the bar move away from your mid-foot. If it moves, start from scratch with step one.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"3"}, "1495048083597"=>{"step"=>"Lift your chest. Straighten your back by raising you chest. Do not change your position – keep the bar over your mid-foot, your shins against the bar, and your hips where they are.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false"}, "1495048087650"=>{"step"=>"Pull. Take a big breath, hold it and stand up with the weight. Keep the bar in contact with your legs while you pull. Don’t shrug or lean back at the top. Lock your hips and knees.\r\n\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false"}, "1495048090454"=>{"step"=>"", "_destroy"=>"false"}}}, "commit"=>"Update Main exercise", "id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDirection Load (0.5ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ? AND "directions"."id" IN (1, 2, 3)[0m  [["main_exercise_id", 10]]
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "directions" SET "step" = ?, "updated_at" = ? WHERE "directions"."id" = ?[0m  [["step", "Walk to the bar. Stand with your mid-foot under the bar. Your shins shouldn’t touch it yet. Put your heels hip-width apart, narrower than on Squats. Point your toes out 15°.\r\n\r\nRead more https://stronglifts.com/deadlift/"], ["updated_at", "2017-05-17 19:08:12.016810"], ["id", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "directions" SET "step" = ?, "updated_at" = ? WHERE "directions"."id" = ?[0m  [["step", "Grab the bar. Bend over without bending your legs. Grip the bar narrow, about shoulder-width apart like on the Overhead Press. Your arms must be vertical when looking from the front.\r\n\r\nRead more https://stronglifts.com/deadlift/"], ["updated_at", "2017-05-17 19:08:12.018810"], ["id", 2]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "directions" SET "step" = ?, "updated_at" = ? WHERE "directions"."id" = ?[0m  [["step", "Bend your knees. Drop into position by bending your knees until your shins touch the bar. Do NOT let the bar move away from your mid-foot. If it moves, start from scratch with step one.\r\n\r\nRead more https://stronglifts.com/deadlift/"], ["updated_at", "2017-05-17 19:08:12.019810"], ["id", 3]]
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "directions" ("step", "main_exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["step", "Lift your chest. Straighten your back by raising you chest. Do not change your position – keep the bar over your mid-foot, your shins against the bar, and your hips where they are.\r\n\r\nRead more https://stronglifts.com/deadlift/"], ["main_exercise_id", 10], ["created_at", "2017-05-17 19:08:12.020811"], ["updated_at", "2017-05-17 19:08:12.020811"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "directions" ("step", "main_exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["step", "Pull. Take a big breath, hold it and stand up with the weight. Keep the bar in contact with your legs while you pull. Don’t shrug or lean back at the top. Lock your hips and knees.\r\n\r\n\r\nRead more https://stronglifts.com/deadlift/"], ["main_exercise_id", 10], ["created_at", "2017-05-17 19:08:12.022811"], ["updated_at", "2017-05-17 19:08:12.022811"]]
+  [1m[35m (25.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/main_exercises/10
+Completed 302 Found in 48ms (ActiveRecord: 27.5ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:08:12 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (6.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 203ms (Views: 188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:08:18 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 210ms (Views: 195.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:08:21 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (1.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 207ms (Views: 200.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:09:47 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 210ms (Views: 195.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 21:09:49 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 195ms (Views: 181.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 21:14:41 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (9.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 279ms (Views: 263.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 21:14:55 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (217.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 417ms (Views: 403.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 21:15:08 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (8.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 202ms (Views: 189.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 21:15:58 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (8.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 209ms (Views: 195.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/8" for 127.0.0.1 at 2017-05-17 21:16:21 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 8]]
+  Rendered main_exercises/show.html.haml within layouts/application (15.7ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 206ms (Views: 191.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 21:16:23 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (8.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 211ms (Views: 196.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:16:24 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (1.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (1.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (5.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 200ms (Views: 184.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/main_exercises/10/edit" for 127.0.0.1 at 2017-05-17 21:18:38 +0200
+Processing by MainExercisesController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/edit.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/_direction_fields.html.haml (15.6ms)
+  Rendered main_exercises/_direction_fields.html.haml (1.5ms)
+  Rendered main_exercises/_direction_fields.html.haml (0.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (0.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (0.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (4.0ms)
+  Rendered main_exercises/_form.html.haml (110.2ms)
+  Rendered main_exercises/edit.html.haml within layouts/application (126.8ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 303ms (Views: 291.3ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:20:15 +0200
+Processing by MainExercisesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tSVYY9bawHCBsDtwPFzhNmxiUisiiVnirib8yFm4qKvHX9sFTNlOKo2KOxwb6GEsyXJQno5eMcaqfzqQDS32NA==", "main_exercise"=>{"title"=>"ROMANIAN DEADLIFT", "description"=>"One of the best exercises to really hammer the hammies is the Romanian deadlift (RDL). A recent EMG study demonstrated the superiority of the RDL in hamstring activation as compared to the leg curl, the glute-ham raise (GHR), and good mornings.", "directions_attributes"=>{"0"=>{"step"=>"Walk to the bar. Stand with your mid-foot under the bar. Your shins shouldn’t touch it yet. Put your heels hip-width apart, narrower than on Squats. Point your toes out 15°.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"1"}, "1"=>{"step"=>"Grab the bar. Bend over without bending your legs. Grip the bar narrow, about shoulder-width apart like on the Overhead Press. Your arms must be vertical when looking from the front.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"2"}, "2"=>{"step"=>"Bend your knees. Drop into position by bending your knees until your shins touch the bar. Do NOT let the bar move away from your mid-foot. If it moves, start from scratch with step one.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"3"}, "3"=>{"step"=>"Lift your chest. Straighten your back by raising you chest. Do not change your position – keep the bar over your mid-foot, your shins against the bar, and your hips where they are.\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"4"}, "4"=>{"step"=>"Pull. Take a big breath, hold it and stand up with the weight. Keep the bar in contact with your legs while you pull. Don’t shrug or lean back at the top. Lock your hips and knees.\r\n\r\n\r\nRead more https://stronglifts.com/deadlift/", "_destroy"=>"false", "id"=>"5"}}}, "commit"=>"Update Main exercise", "id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ? AND "directions"."id" IN (1, 2, 3, 4, 5)[0m  [["main_exercise_id", 10]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/main_exercises/10
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:20:15 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (1.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (5.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 215ms (Views: 201.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-05-17 21:20:20 +0200
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 208ms (Views: 190.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2017-05-17 21:20:22 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/show.html.erb within layouts/application (17.6ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    14: 
+    15: <% @post.comments.each do |comment| %>
+    16:     <p>
+    17:       <strong><%= @user.id %></strong>
+    18: 
+    19:     </p>
+    20:     <p>
+  
+app/views/posts/show.html.erb:17:in `block in _app_views_posts_show_html_erb___41301569_189597480'
+app/views/posts/show.html.erb:15:in `_app_views_posts_show_html_erb___41301569_189597480'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (697.6ms)
+Started GET "/posts/1" for 127.0.0.1 at 2017-05-17 21:20:30 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/show.html.erb within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    14: 
+    15: <% @post.comments.each do |comment| %>
+    16:     <p>
+    17:       <strong><%= @user.id %></strong>
+    18: 
+    19:     </p>
+    20:     <p>
+  
+app/views/posts/show.html.erb:17:in `block in _app_views_posts_show_html_erb___41301569_182032580'
+app/views/posts/show.html.erb:15:in `_app_views_posts_show_html_erb___41301569_182032580'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (682.0ms)
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 21:20:38 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (6.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 204ms (Views: 189.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-05-17 21:20:39 +0200
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 199ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2017-05-17 21:20:41 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/show.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    14: 
+    15: <% @post.comments.each do |comment| %>
+    16:     <p>
+    17:       <strong><%= @user.id %></strong>
+    18: 
+    19:     </p>
+    20:     <p>
+  
+app/views/posts/show.html.erb:17:in `block in _app_views_posts_show_html_erb___41301569_141829180'
+app/views/posts/show.html.erb:15:in `_app_views_posts_show_html_erb___41301569_141829180'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (695.5ms)
+Started GET "/posts/new" for 127.0.0.1 at 2017-05-17 21:20:50 +0200
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (6.0ms)
+  Rendered posts/new.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 217ms (Views: 203.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2017-05-17 21:20:56 +0200
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yJniYtqpnH+AYK6XMz+QCYr9LLDDGGU1zt3256kEWsp35rnmWQ4kOjnNbryddZwtCUNliZk+6jnKgE9zPDBlHQ==", "post"=>{"title"=>"wfw", "description"=>"asdas", "user_id"=>"1"}, "commit"=>"Create Post"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "wfw"], ["description", "asdas"], ["user_id", 1], ["created_at", "2017-05-17 19:20:56.154755"], ["updated_at", "2017-05-17 19:20:56.154755"]]
+  [1m[35m (35.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/posts/2
+Completed 302 Found in 49ms (ActiveRecord: 36.1ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2017-05-17 21:20:56 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  Rendered posts/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 206ms (Views: 190.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-05-17 21:21:00 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 235ms (Views: 237.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-05-17 21:21:03 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fQ2HArqqHdPqAtpWad57Y6aTpB2L2nFv0sh76f9Vg4EGAPYXKyUWcxlyc06oAX3g0aH9mI74hDklY6OyxM5PVQ==", "user"=>{"email"=>"sathie@live.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "sathie@live.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fQ2HArqqHdPqAtpWad57Y6aTpB2L2nFv0sh76f9Vg4EGAPYXKyUWcxlyc06oAX3g0aH9mI74hDklY6OyxM5PVQ==", "user"=>{"email"=>"sathie@live.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 327ms (Views: 229.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-05-17 21:21:06 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 217ms (Views: 229.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-05-17 21:21:14 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gt7dYOtTjds8hKxfkNe7JRn4wv/dPVgZc8moYoFBllPkYnwYl+CW0nkcfRXeqVw0NhKmUxLCkjoYtJPO6HLlpQ==", "user"=>{"email"=>"asd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "asd@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 421ms (Views: 227.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-05-17 21:21:36 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LRJqfsbxo4UrKIb2bXw0WA2pnPv2X1qHuqLZumKARZuSbTH6RVYbwJKFRt3DNjh8jhfVwqx51Yu+/2Au97R6TA==", "user"=>{"email"=>"qwerty@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "qwerty@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "qwerty@gmail.com"], ["encrypted_password", "$2a$11$tNOFrzMJu73CsBrPfhDpCeIu8u9J.c9h3aWjDEHA1rQ59lishQ3wi"], ["created_at", "2017-05-17 19:21:36.735577"], ["updated_at", "2017-05-17 19:21:36.735577"]]
+  [1m[35m (28.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-05-17 19:21:36.764875"], ["last_sign_in_at", "2017-05-17 19:21:36.764875"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2017-05-17 19:21:36.765876"], ["id", 2]]
+  [1m[35m (19.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 233ms (ActiveRecord: 49.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-17 21:21:36 +0200
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 202ms (Views: 189.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-17 21:21:37 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [90 times] (17.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (967.6ms)
+Started GET "/posts" for 127.0.0.1 at 2017-05-17 21:21:39 +0200
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered posts/index.html.erb within layouts/application (1274.5ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 5380ms (Views: 5344.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2017-05-17 21:21:48 +0200
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mComment Load (0.0ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered posts/show.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    14: 
+    15: <% @post.comments.each do |comment| %>
+    16:     <p>
+    17:       <strong><%= @user.id %></strong>
+    18: 
+    19:     </p>
+    20:     <p>
+  
+app/views/posts/show.html.erb:17:in `block in _app_views_posts_show_html_erb___41301569_134023140'
+app/views/posts/show.html.erb:15:in `_app_views_posts_show_html_erb___41301569_134023140'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (701.5ms)
+Started GET "/posts" for 127.0.0.1 at 2017-05-17 21:21:57 +0200
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered posts/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 195ms (Views: 182.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-05-17 21:22:02 +0200
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 209ms (Views: 195.8ms | ActiveRecord: 0.0ms)
+
+
+  
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-17 21:22:02 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+  
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [90 times] (15.6ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (194.9ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5000.4ms)
