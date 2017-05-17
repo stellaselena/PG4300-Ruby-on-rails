@@ -37482,3 +37482,310 @@ Processing by MainExercisesController#index as HTML
 Completed 200 OK in 205ms (Views: 191.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-05-17 22:36:22 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomePageController#main_page as HTML
+  Rendering home_page/main_page.html.erb within layouts/application
+  Rendered home_page/main_page.html.erb within layouts/application (824.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 1173ms (Views: 1143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dist/js/bootstrap.min.js" for 127.0.0.1 at 2017-05-17 22:36:33 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.min.js"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+ActionController::RoutingError (No route matches [GET] "/assets/js/vendor/holder.min.js"):
+ActionController::RoutingError (No route matches [GET] "/assets/js/ie10-viewport-bug-workaround.js"):
+  
+  
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.3) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.3) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [90 times] (15.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (973.4ms)
+Started GET "/exercises" for 127.0.0.1 at 2017-05-17 22:36:36 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (22.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 250ms (Views: 225.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/main_exercises/new" for 127.0.0.1 at 2017-05-17 22:36:44 +0200
+Processing by MainExercisesController#new as HTML
+  Rendering main_exercises/new.html.haml within layouts/application
+  Rendered main_exercises/_direction_fields.html.haml (4.9ms)
+  Rendered main_exercises/_form.html.haml (115.8ms)
+  Rendered main_exercises/new.html.haml within layouts/application (125.3ms)
+  Rendered layouts/_nav.html.erb (15.6ms)
+Completed 200 OK in 314ms (Views: 302.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/main_exercises" for 127.0.0.1 at 2017-05-17 22:36:53 +0200
+Processing by MainExercisesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WfNFYoyC0OAYx8iXMb3vz6DUycjQ3kHa3k1e/7tEJAemkf6/L9QL4Elnnqsf/1ljpnRQOJ1Cj27ZJCAsLu+cAA==", "main_exercise"=>{"title"=>"afawf", "description"=>"asfcsaasf", "image"=>#<ActionDispatch::Http::UploadedFile:0x00000003ea21a0 @tempfile=#<Tempfile:C:/Users/sathi/AppData/Local/Temp/RackMultipart20170517-7076-fer3tm.jpg>, @original_filename="20150805_191553.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"main_exercise[image]\"; filename=\"20150805_191553.jpg\"\r\nContent-Type: image/jpeg\r\n">, "directions_attributes"=>{"1495053408987"=>{"step"=>"sdsd", "_destroy"=>"false"}}}, "commit"=>"Create Main exercise"}
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & file -b --mime "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-7076-1uuz9nt.jpg"
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & identify -format '%wx%h,%[exif:orientation]' "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-7076-7v09jh.jpg[0]" 2>NUL
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & identify -format %m "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-7076-7v09jh.jpg[0]"
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & convert "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-7076-7v09jh.jpg[0]" -auto-orient -resize "x400" -crop "400x400+155+0" +repage "C:/Users/sathi/AppData/Local/Temp/bb8537961162dc0d12abc5e3573b79b420170517-7076-7yte9v"
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & file -b --mime "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-7076-1fqz6u.jpg"
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering main_exercises/new.html.haml within layouts/application
+  Rendered main_exercises/_direction_fields.html.haml (4.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (4.0ms)
+  Rendered main_exercises/_form.html.haml (39.5ms)
+  Rendered main_exercises/new.html.haml within layouts/application (52.0ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 812ms (Views: 225.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main_exercises" for 127.0.0.1 at 2017-05-17 22:38:00 +0200
+Processing by MainExercisesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PRQo4YS7TBZlWDPS8o6oAVVe9rI9krHRvC7KfKZgci+Ca3NlBxz0U9z18/lcxKQl1uC/i2e0Pt24c3PoM1RN+A==", "main_exercise"=>{"title"=>"afawf", "description"=>"asfcsaasf", "directions_attributes"=>{"0"=>{"step"=>"sdsd", "_destroy"=>"false"}}}, "commit"=>"Create Main exercise"}
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering main_exercises/new.html.haml within layouts/application
+  Rendered main_exercises/_direction_fields.html.haml (4.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (4.0ms)
+  Rendered main_exercises/_form.html.haml (49.6ms)
+  Rendered main_exercises/new.html.haml within layouts/application (63.1ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+Completed 200 OK in 245ms (Views: 240.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/main_exercises" for 127.0.0.1 at 2017-05-17 22:38:51 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainExercisesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LmxSsz0u694LfPxQNfRvYizJB0ePqhZixRZjoK2lz4uREwk3volTm7LRPHubvmNGr3dOftWMmW7BS9o0OJHwXA==", "main_exercise"=>{"title"=>"sef", "description"=>"sefse", "image"=>#<ActionDispatch::Http::UploadedFile:0x000000053790b0 @tempfile=#<Tempfile:C:/Users/sathi/AppData/Local/Temp/RackMultipart20170517-9320-120q6mn.jpg>, @original_filename="20150806_142428.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"main_exercise[image]\"; filename=\"20150806_142428.jpg\"\r\nContent-Type: image/jpeg\r\n">, "directions_attributes"=>{"0"=>{"step"=>"sdsd", "_destroy"=>"false"}, "1495053529102"=>{"step"=>"sefsef", "_destroy"=>"false"}}}, "commit"=>"Create Main exercise"}
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & file -b --mime "C:/Users/sathi/AppData/Local/Temp/1ccac798f853e63c0eb90f187176ed0b20170517-9320-1voqmcj.jpg"
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & identify -format '%wx%h,%[exif:orientation]' "C:/Users/sathi/AppData/Local/Temp/1ccac798f853e63c0eb90f187176ed0b20170517-9320-w1k5uj.jpg[0]" 2>NUL
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & identify -format %m "C:/Users/sathi/AppData/Local/Temp/1ccac798f853e63c0eb90f187176ed0b20170517-9320-w1k5uj.jpg[0]"
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & convert "C:/Users/sathi/AppData/Local/Temp/1ccac798f853e63c0eb90f187176ed0b20170517-9320-w1k5uj.jpg[0]" -auto-orient -resize "x400" -crop "400x400+155+0" +repage "C:/Users/sathi/AppData/Local/Temp/cd383b0e2cbcfe098bf427cb7b054a3920170517-9320-1nwrfaz"
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & file -b --mime "C:/Users/sathi/AppData/Local/Temp/1ccac798f853e63c0eb90f187176ed0b20170517-9320-16bpxqo.jpg"
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering main_exercises/new.html.haml within layouts/application
+  Rendered main_exercises/_direction_fields.html.haml (7.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (3.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (4.5ms)
+  Rendered main_exercises/_form.html.haml (134.4ms)
+  Rendered main_exercises/new.html.haml within layouts/application (159.2ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 1551ms (Views: 808.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/main_exercises" for 127.0.0.1 at 2017-05-17 22:39:33 +0200
+Processing by MainExercisesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JEcTNUu6wO0+DSESq4ThYNhUeQ5aw4uWG440IXRkib6bOEixyB14qIeg4TkFzu1EW+owNwDlBJof04214VC2aQ==", "main_exercise"=>{"title"=>"sef", "description"=>"sefse", "directions_attributes"=>{"0"=>{"step"=>"sdsd", "_destroy"=>"false"}, "1"=>{"step"=>"sefsef", "_destroy"=>"false"}}}, "commit"=>"Create Main exercise"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering main_exercises/new.html.haml within layouts/application
+  Rendered main_exercises/_direction_fields.html.haml (3.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (2.0ms)
+  Rendered main_exercises/_direction_fields.html.haml (3.0ms)
+  Rendered main_exercises/_form.html.haml (52.8ms)
+  Rendered main_exercises/new.html.haml within layouts/application (65.9ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 250ms (Views: 246.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 22:41:19 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (15.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 195ms (Views: 179.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/main_exercises/new" for 127.0.0.1 at 2017-05-17 22:41:21 +0200
+Processing by MainExercisesController#new as HTML
+  Rendering main_exercises/new.html.haml within layouts/application
+  Rendered main_exercises/_direction_fields.html.haml (5.2ms)
+  Rendered main_exercises/_form.html.haml (44.0ms)
+  Rendered main_exercises/new.html.haml within layouts/application (59.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 231ms (Views: 219.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/main_exercises" for 127.0.0.1 at 2017-05-17 22:41:27 +0200
+Processing by MainExercisesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ncdvbhXaGcg9CHsLFJegeqYXSsi9nrKBdX/PXIYq6khipdSztozCyGyoLTc61RbWoLfTOPACfDVyFrGPE4FSTw==", "main_exercise"=>{"title"=>"asfas", "description"=>"safafs", "image"=>#<ActionDispatch::Http::UploadedFile:0x000000048462b0 @tempfile=#<Tempfile:C:/Users/sathi/AppData/Local/Temp/RackMultipart20170517-9320-1k594sy.jpg>, @original_filename="20150805_191553.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"main_exercise[image]\"; filename=\"20150805_191553.jpg\"\r\nContent-Type: image/jpeg\r\n">, "directions_attributes"=>{"1495053685600"=>{"step"=>"asfafsfa", "_destroy"=>"false"}}}, "commit"=>"Create Main exercise"}
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & file -b --mime "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-9320-o33cm0.jpg"
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & identify -format '%wx%h,%[exif:orientation]' "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-9320-1ghj2s3.jpg[0]" 2>NUL
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & identify -format %m "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-9320-1ghj2s3.jpg[0]"
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & convert "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-9320-1ghj2s3.jpg[0]" -auto-orient -resize "x400" -crop "400x400+155+0" +repage "C:/Users/sathi/AppData/Local/Temp/62d3b69a8ae9dc94edf21d99d8fbcdf820170517-9320-tirxnh"
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Command :: SET PATH=C:\Program Files (x86)\GnuWin32\bin;%PATH% & file -b --mime "C:/Users/sathi/AppData/Local/Temp/c78fd7310777c4f4bea539f86fb79cf020170517-9320-12i9agk.jpg"
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "main_exercises" ("title", "description", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "asfas"], ["description", "safafs"], ["created_at", "2017-05-17 20:41:28.311415"], ["updated_at", "2017-05-17 20:41:28.311415"], ["image_file_name", "20150805_191553.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 5597260], ["image_updated_at", "2017-05-17 20:41:27.725788"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "directions" ("step", "main_exercise_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["step", "asfafsfa"], ["main_exercise_id", 12], ["created_at", "2017-05-17 20:41:28.313415"], ["updated_at", "2017-05-17 20:41:28.313415"]]
+  [1m[35m (25.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/main_exercises/12
+Completed 302 Found in 659ms (ActiveRecord: 26.0ms)
+
+
+Started GET "/main_exercises/12" for 127.0.0.1 at 2017-05-17 22:41:28 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 12]]
+  Rendered main_exercises/show.html.haml within layouts/application (6.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 190ms (Views: 175.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 22:41:31 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 182ms (Views: 169.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/main_exercises/12" for 127.0.0.1 at 2017-05-17 22:41:34 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 12]]
+  Rendered main_exercises/show.html.haml within layouts/application (15.6ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 182ms (Views: 168.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/main_exercises/12" for 127.0.0.1 at 2017-05-17 22:41:38 +0200
+Processing by MainExercisesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+O8KxImOZt2+GabFFd5X+LUEqx/+fEg8douu37wYW9xHkFFACinemAe0Zu67lFvcNrriJqRaxzBy1hdLKSxkCw==", "id"=>"12"}
+  [1m[36mMainExercise Load (0.5ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "main_exercises" WHERE "main_exercises"."id" = ?[0m  [["id", 12]]
+  [1m[35m (18.6ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting C:/Users/sathi/Downloads/PG4300-Ruby-on-rails/public/system/main_exercises/images/000/000/012/original/20150805_191553.jpg
+[paperclip] deleting C:/Users/sathi/Downloads/PG4300-Ruby-on-rails/public/system/main_exercises/images/000/000/012/medium/20150805_191553.jpg
+Redirected to http://127.0.0.1:3000/main_exercises
+Completed 302 Found in 27ms (ActiveRecord: 19.6ms)
+
+
+Started GET "/main_exercises" for 127.0.0.1 at 2017-05-17 22:41:38 +0200
+Processing by MainExercisesController#index as HTML
+  Rendering main_exercises/index.html.haml within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "main_exercises"[0m
+  [1m[36mMainExercise Load (1.0ms)[0m  [1m[34mSELECT "main_exercises".* FROM "main_exercises" ORDER BY created_at DESC[0m
+  Rendered main_exercises/index.html.haml within layouts/application (9.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 205ms (Views: 192.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/main_exercises/10" for 127.0.0.1 at 2017-05-17 22:41:48 +0200
+Processing by MainExercisesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mMainExercise Load (0.0ms)[0m  [1m[34mSELECT  "main_exercises".* FROM "main_exercises" WHERE "main_exercises"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering main_exercises/show.html.haml within layouts/application
+  [1m[36mDirection Load (0.0ms)[0m  [1m[34mSELECT "directions".* FROM "directions" WHERE "directions"."main_exercise_id" = ?[0m  [["main_exercise_id", 10]]
+  Rendered main_exercises/show.html.haml within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 189ms (Views: 176.9ms | ActiveRecord: 0.0ms)
+
+

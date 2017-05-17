@@ -1,6 +1,6 @@
 class MainExercise < ActiveRecord::Base
 
-  has_many :directions
+  has_many :directions, inverse_of: :main_exercise
 
 
   accepts_nested_attributes_for :directions,
