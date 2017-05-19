@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :line_items
+  resources :carts
+  get 'store/index'
+
+  resources :products
   devise_for :users
   devise_for :models, controllers: {registrations: "registrations"}
   get 'guide' => 'supplementation#guide'
