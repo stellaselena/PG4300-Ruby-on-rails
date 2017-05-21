@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= stylesheet_link_tag 'orders' %>
+</head>
+<body class="<%= controller.controller_name %>">
+<div class="depot_form">
+  <fieldset>
+    <legend>Please Enter Your Details</legend>
+    <%= render 'form' %>
+  </fieldset>
+</div>
+<%= link_to 'Back', orders_path %>
+</body>
+</html>
