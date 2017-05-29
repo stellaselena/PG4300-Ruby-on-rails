@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, :controllers => { registrations: 'registrations' }
   devise_for :models, controllers: {registrations: "registrations"}
   resources :users
   resources :posts do
@@ -20,7 +20,8 @@ Rails.application.routes.draw do
   get 'exercise'  => 'workout#exercise'
 
   get 'home'  => 'home_page#main_page'
-  #get 'posts' => 'posts#index'
+
+  get 'posts' => 'posts#new'
   #get 'sign_out' => 'devise/sessions#destroy'
 
   root 'home_page#main_page'

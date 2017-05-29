@@ -25,7 +25,9 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = Post.new(post_params)
-
+    if user_signed_in?
+      current_user
+    end
     respond_to do |format|
       if @post.save
         format.html { redirect_to @post, notice: 'Post was successfully created.' }
@@ -60,6 +62,10 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  def get_user (user_id)
+    User.find_by(id: params[user_id])
+  end
+  helper_method :get_user
 
   private
     # Use callbacks to share common setup or constraints between actions.
@@ -71,4 +77,6 @@ class PostsController < ApplicationController
     def post_params
       params.require(:post).permit(:title, :description, :user_id)
     end
+
+
 end
