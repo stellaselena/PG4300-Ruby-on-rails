@@ -39,10 +39,10 @@
         <%= form.hidden_field :commenter, value: current_user.username %>
       </p>
       <p>
-        <%= form.text_area :body, :size => "150", :input_html => {:rows => 10} %><br />
+        <%= form.text_area :body, :size => "150x15" %><br />
       </p>
       <p>
-        <%= form.submit %>
+        <%= form.submit "Create Comment", class: "btn btn-primary" %>
       </p>
 <% end %>
 <% else %>
@@ -50,7 +50,9 @@
       Want to add a comment?
       <%= link_to 'Sign in', new_user_session_path %>
     </h2>
-
 <% end %>
+<% if user_signed_in? && @post.user.id == current_user.id %>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
+<% end %>
 <%= link_to 'Back', posts_path %>

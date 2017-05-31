@@ -2,36 +2,31 @@
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
+    <div clas="row">
 
-    <div class="form-group">
-      <div class="col-md-8">
+    <div class="form-group col-xs-10">
+      <div class="row-md-4">
         <%= f.email_field :email, class: "form-control", placeholder: "email" %><br />
       </div>
-    </div>
 
-    <div class="form-group">
-      <div class="col-md-8">
+      <div class="row-md-4">
         <%= f.text_field :username, class: "form-control", placeholder: "username" %> <br />
       </div>
-    </div>
 
-    <div class="form-group">
-      <div class="col-md-8">
-        <%= f.password_field :password, autocomplete: "off", class: "form-control", placeholder: "email" %> <br />
+      <div class="row-md-4">
+        <%= f.password_field :password, autocomplete: "off", class: "form-control", placeholder: "password" %> <br />
+      </div>
+
+      <div class="row-md-4">
+        <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control", placeholder: "confirm password" %> <br />
+      </div>
+
+      <div class="form-actions">
+        <%= f.submit "Sign up", class: "btn btn-primary"%>
+        <%= render "devise/shared/links" %>
       </div>
     </div>
-
-    <div class="form-group">
-      <div class="col-md-8">
-        <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control", placeholder: "email" %> <br />
-      </div>
     </div>
-
-
-
-  <div class="actions">
-    <%= f.submit "Sign up", class: "btn btn-primary"%>
-  </div>
 <% end %>
 
-<%= render "devise/shared/links" %>
+

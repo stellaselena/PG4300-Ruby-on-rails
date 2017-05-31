@@ -8,7 +8,7 @@
 <ul class="list-group">
     <% @posts.reverse_each do |post| %>
     <li href="#" class="list-group-item justify-content-between">
-      <h4><%= link_to post.title, post %></h4></br>
+      <h4><%= link_to post.title, post %></h4>
 
       <% if post.description.length < 200 %>
         <p><%= post.description[0..200]%></p>
