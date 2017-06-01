@@ -1,0 +1,18 @@
+.row
+  .col-md-12
+    .jumbotron
+      %h1 EXERCISES
+      %p The Best Muscle-Building Exercises For Every Body Part!
+      =image_tag("exerciseBanner.png", class: "img-fluid", :alt => "banner", :width => "100%", :height => "100%")
+
+
+%h3= link_to "Add new exercise", new_main_exercise_path
+- @exercise.each_slice(3) do |exercises|
+  .row
+    - exercises.each do |exercise|
+      .col-md-4
+        .exercise
+          .image_wrapper
+            = link_to exercise do
+              = image_tag exercise.image.url(:medium)
+          %h2= link_to exercise.title, exercise

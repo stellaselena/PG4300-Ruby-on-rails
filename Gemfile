@@ -30,7 +30,21 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
+<<<<<<< HEAD
 gem 'bcrypt', :platforms => :ruby
+=======
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
+gem 'haml', '~> 5.0', '>= 5.0.1'
+
+gem 'simple_form', '~> 3.4'
+
+gem 'paperclip', '~> 5.1'
+
+gem 'cocoon', '~> 1.2', '>= 1.2.10'
+
+
+>>>>>>> origin/workoutlog
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

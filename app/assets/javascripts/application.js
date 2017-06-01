@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require cocoon
 //= require bootstrap-sprockets
 //= require jquery-ui/effects/effect-blind
 //= require jquery_ujs

@@ -1,0 +1,22 @@
+.main_content
+  #exercise_top.row
+    .col-md-5
+      = image_tag @exercise.image.url(:medium), class: "exercise_image"
+    .col-md-7
+      .pull-right
+        #exercise_info
+          %h1= @exercise.title
+          %p.description= @exercise.description
+
+  .row
+    .col-md-6
+      #directions
+        %h2 Steps
+        %ul
+          - @exercise.directions.each do |direction|
+            %li= direction.step
+  .row
+    .col-md-12
+      = link_to "Back", main_exercises_path, class: "btn btn-default"
+      = link_to "Edit", edit_main_exercise_path, class: "btn btn-default"
+      = link_to "Delete", main_exercise_path, method: :delete, data: {confirm: "Are you sure?" }, class: "btn btn-default"

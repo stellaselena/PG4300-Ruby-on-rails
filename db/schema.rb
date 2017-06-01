@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170520181359) do
 
   create_table "carts", force: :cascade do |t|
@@ -26,24 +27,50 @@ ActiveRecord::Schema.define(version: 20170520181359) do
     t.integer  "order_id"
   end
 ActiveRecord::Schema.define(version: 20170530235927) do
+=======
+ActiveRecord::Schema.define(version: 20170517154912) do
+>>>>>>> origin/workoutlog
 
-  create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "comments", force: :cascade do |t|
     t.string   "commenter"
-    t.text     "body",       limit: 65535
+    t.text     "body"
     t.integer  "post_id"
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
-    t.index ["post_id"], name: "index_comments_on_post_id", using: :btree
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["post_id"], name: "index_comments_on_post_id"
   end
 
-  create_table "posts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "directions", force: :cascade do |t|
+    t.text     "step"
+    t.integer  "main_exercise_id"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.index ["main_exercise_id"], name: "index_directions_on_main_exercise_id"
+  end
+
+  create_table "exercises", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "sets"
+    t.integer  "reps"
+    t.integer  "workout_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["workout_id"], name: "index_exercises_on_workout_id"
+  end
+
+  create_table "main_exercises", force: :cascade do |t|
     t.string   "title"
-    t.text     "description", limit: 65535
+    t.text     "description"
     t.integer  "user_id"
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
+<<<<<<< HEAD
   create_table "orders", force: :cascade do |t|
     t.string   "name"
     t.text     "address"
@@ -60,6 +87,31 @@ ActiveRecord::Schema.define(version: 20170530235927) do
     t.decimal  "price",       precision: 8, scale: 2
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+=======
+  create_table "models", force: :cascade do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
+    t.index ["email"], name: "index_models_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_models_on_reset_password_token", unique: true
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string   "title"
+    t.text     "description"
+    t.integer  "user_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+>>>>>>> origin/workoutlog
   end
 
   create_table "users", force: :cascade do |t|
@@ -77,10 +129,23 @@ ActiveRecord::Schema.define(version: 20170530235927) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+<<<<<<< HEAD
     t.string   "username",                            null: false
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+=======
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "comments", "posts"
+  create_table "workouts", force: :cascade do |t|
+    t.datetime "date"
+    t.string   "workout"
+    t.string   "mood"
+    t.string   "length"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+>>>>>>> origin/workoutlog
+  end
+
 end
