@@ -1,0 +1,58 @@
+<p id="notice"><%= notice %></p>
+<ul class="list-group">
+  <li href="#" class="list-group-item justify-content-between">
+    <h2>
+      <strong><%= @post.title %></strong>
+    </h2>
+    <hr class="featurette-divider">
+
+    <p>
+      <%= @post.description %>
+    </p><br/><br/>
+
+    <p><strong>By: </strong><%= @post.user.username %></p>
+  </li>
+
+</ul>
+
+
+
+
+<h2>Comments</h2>
+
+<% @post.comments.reverse_each do |comment| %>
+    <p>
+      <strong><%= comment.commenter %></strong>
+
+    </p>
+    <p>
+      <%= comment.body %>
+    </p>
+    <hr class="featurette-divider">
+<% end %>
+
+<% if user_signed_in? %>
+  <h2>Add a comment:</h2>
+
+  <%= form_for([@post, @post.comments.build]) do |form| %>
+      <p>
+        <%= form.hidden_field :commenter, value: current_user.username %>
+      </p>
+      <p>
+        <%= form.text_area :body, :size => "150x15" %><br />
+      </p>
+      <p>
+        <%= form.submit "Create Comment", class: "btn btn-primary" %>
+      </p>
+<% end %>
+<% else %>
+    <h2>
+      Want to add a comment?
+      <%= link_to 'Sign in', new_user_session_path %>
+    </h2>
+<% end %>
+<% if user_signed_in? && @post.user.id == current_user.id %>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<% end %>
+<%= link_to 'Back', posts_path %>

@@ -1,0 +1,39 @@
+<body>
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+
+
+<ul class="list-group">
+    <% @posts.reverse_each do |post| %>
+    <li href="#" class="list-group-item justify-content-between">
+      <h4><%= link_to post.title, post %></h4>
+
+      <% if post.description.length < 200 %>
+        <p><%= post.description[0..200]%></p>
+      <% else %>
+          <p><%= post.description[0..200]%>...</p>
+      <% end %>
+
+      <% @count = 0 %>
+      <% post.comments.each do %>
+        <% @count +=1 %>
+      <% end %>
+      <span class="badge badge-default badge-pill"><%= @count %></span>
+        <strong>By: </strong><%= post.user.username %>
+        <% if user_signed_in? && post.user.id == current_user.id %>
+          <%= link_to 'Edit', edit_post_path(post), class: "btn btn-warning" %>
+          <%= link_to 'Destroy', post, class: "btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% end %>
+    </li>
+    <% end %>
+</ul>
+
+
+<br>
+<% if user_signed_in? %>
+    <%= link_to 'New Post', new_post_path, class: "btn btn-primary" %>
+<% end %>
+
+</body>
