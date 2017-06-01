@@ -5,13 +5,11 @@
       <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <auth-required>false</auth-required>
-      <introspection-schemas>*:</introspection-schemas>
     </data-source>
     <data-source name="Rails FitnessPage: test" uuid="8d6b693a-c0b0-4e64-95e9-a0d956237a6d">
       <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <auth-required>false</auth-required>
-      <introspection-schemas>*:main</introspection-schemas>
     </data-source>
   </component>
 </project>
