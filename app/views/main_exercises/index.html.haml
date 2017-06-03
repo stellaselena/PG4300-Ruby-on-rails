@@ -5,8 +5,8 @@
       %p The Best Muscle-Building Exercises For Every Body Part!
       =image_tag("exerciseBanner.png", class: "img-fluid", :alt => "banner", :width => "100%", :height => "100%")
 
-
-%h3= link_to "Add new exercise", new_main_exercise_path
+- if current_user.try(:admin?)
+  %h3= link_to "Add new exercise", new_main_exercise_path
 - @exercise.each_slice(3) do |exercises|
   .row
     - exercises.each do |exercise|

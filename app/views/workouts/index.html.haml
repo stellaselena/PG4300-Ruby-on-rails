@@ -5,11 +5,12 @@
 .jumbotron
   .container
   #index_workouts
-  - @workouts.each do |workout|
-    %h1= link_to workout.date.strftime("%A %B %d"), workout
-    %h2
-      %span Workout:
-      = workout.workout
+    - current_user.workouts.reverse_each do |workout|
+      %h1= link_to workout.date.strftime("%A %B %d"), workout
+      %h2
+        %span Workout:
+        = workout.workout
+
 
 .jumbotron
   .container

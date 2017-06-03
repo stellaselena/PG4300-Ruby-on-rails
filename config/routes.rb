@@ -20,6 +20,9 @@ Rails.application.routes.draw do
   resources :posts do
     resources :comments
   end
+  resources :users do
+    resources :workouts
+  end
 
   get 'exercises' => 'main_exercises#index'
   get 'workout_log' => 'workouts#index'

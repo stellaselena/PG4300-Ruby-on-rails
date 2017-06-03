@@ -30,3 +30,10 @@ Centrum Silver Men Multivitamin / Multimineral Supplement Tablet, Vitamin D3 (20
                 image_url: 'multivitamin.jpg',
                 price: 19.95
 )
+
+user = User.new
+user.email = 'admin@admin.com'
+user.username = 'admin'
+user.password = 'admin96'
+user.admin = true
+user.save!

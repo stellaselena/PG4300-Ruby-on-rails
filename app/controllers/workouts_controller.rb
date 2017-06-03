@@ -1,4 +1,5 @@
 class WorkoutsController < ApplicationController
+  before_filter :authenticate_user!
   before_action :find_workout, only: [:show, :edit, :update, :destroy]
   def index
     @workouts = Workout.all.order("created_at DESC")
@@ -40,7 +41,7 @@ class WorkoutsController < ApplicationController
 
   private
   def workout_params
-    params.require(:workout).permit(:date, :workout, :mood, :length)
+    params.require(:workout).permit(:user_id, :date, :workout, :mood, :length)
   end
 
   def find_workout
