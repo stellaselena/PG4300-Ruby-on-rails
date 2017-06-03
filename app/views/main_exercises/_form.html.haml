@@ -3,7 +3,7 @@
     #errors
       %p
         = @exercise.errors.count
-        Prevented this recipe froms saving
+        Prevented this exercise from saving
       %ul
         - @exercise.errors.full_messages.each do |msg|
           %li= msg
