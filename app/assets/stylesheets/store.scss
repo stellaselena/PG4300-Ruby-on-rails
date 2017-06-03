@@ -7,13 +7,13 @@
     padding-bottom: 0.5em;
     font: 150% sans-serif;
     color: #226;
-    border-bottom: 3px dotted #77d;
+    border-bottom: 3px solid #77d;
   }
 
   .entry {
     overflow: auto;
     margin-top: 1em;
-    border-bottom: 1px dotted #77d;
+    border-bottom: 1px solid #77d;
     min-height: 100px;
 
     img {
@@ -30,7 +30,7 @@
       margin-left: 100px;
       margin-top: 0;
       margin-bottom: 2px;
-      color: #227;
+      color: black;
     }
 
     p, div.price_line {
@@ -40,7 +40,7 @@
     }
 
     .price {
-      color: #44a;
+      color: black;
       font-weight: bold;
       margin-right: 3em;
     }
@@ -69,7 +69,7 @@
   float: right;
   padding: 1em 2em;
   width: 13em;
-  background: #0a1644;
+  background: #3277B3;
   form, div {
     display: inline;
 
@@ -82,7 +82,7 @@
 
   #cart {
     font-size: smaller;
-    color: white;
+    color: black;
 
     table {
       border-top: 1px dotted #595;

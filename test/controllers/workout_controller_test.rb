@@ -1,18 +1,18 @@
 require 'test_helper'
 
-class WorkoutControllerTest < ActionDispatch::IntegrationTest
-  test "should get plan" do
-    get workout_plan_url
+class WorkoutControllerTest < ActionController::TestCase
+  test 'should get plan' do
+    get :plan
     assert_response :success
   end
 
-  test "should get program" do
-    get workout_program_url
+  test 'should get program' do
+    get :program
     assert_response :success
   end
 
-  test "should get exercise" do
-    get workout_exercise_url
+  test 'should get exercise' do
+    get :exercise
     assert_response :success
   end
 

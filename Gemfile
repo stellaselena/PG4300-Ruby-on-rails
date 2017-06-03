@@ -49,5 +49,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'will_paginate', '~> 3.0'
-gem 'mysql2'
-gem 'pg'
+
+gem 'railties', '~> 5.0.2'
+
+gem 'rails-controller-testing'
