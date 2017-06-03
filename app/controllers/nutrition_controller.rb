@@ -68,7 +68,6 @@ class NutritionController < ApplicationController
   end
 
   def diet_guide
-
   end
 
 

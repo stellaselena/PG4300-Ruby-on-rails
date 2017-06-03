@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class SupplementationControllerTest < ActionDispatch::IntegrationTest
-  test "should get guide" do
-    get supplementation_guide_url
+class SupplementationControllerTest < ActionController::TestCase
+  test 'should get guide' do
+    get :guide
     assert_response :success
   end
 

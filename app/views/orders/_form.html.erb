@@ -11,27 +11,37 @@
         </div>
     <% end %>
 
-    <div class="field">
-      <%= f.label :name %>
-      <%= f.text_field :name, size: 40 %>
+
+    <div class="jumbotron">
+      <div class="field">
+        <%= f.label :name %>
+        <%= f.text_area :name, size: 40, rows: 1, cols: 40 %>
+      </div>
+
+      <div class="field">
+        <%= f.label :address %>
+        <%= f.text_area :address, rows: 3, cols: 40 %>
+      </div>
+
+      <div class="field">
+        <%= f.label :email %>
+        <%= f.email_field :email, size: 40 %>
+      </div>
+
     </div>
 
-    <div class="field">
-      <%= f.label :address %>
-      <%= f.text_area :address, rows: 3, cols: 40 %>
+    <div class="jumbotron">
+
+      <div class="field">
+        <%= f.label :pay_type %>
+        <%= f.select :pay_type, Order::PAYMENT_TYPES, prompt: 'Select a payment method' %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit 'Place Order' %>
+
+      </div>
+
     </div>
 
-    <div class="field">
-      <%= f.label :email %>
-      <%= f.email_field :email, size: 40 %>
-    </div>
-
-    <div class="field">
-      <%= f.label :pay_type %>
-      <%= f.select :pay_type, Order::PAYMENT_TYPES, prompt: 'Select a payment method' %>
-    </div>
-
-    <div class="actions">
-      <%= f.submit 'Place Order' %>
-    </div>
 <% end %>

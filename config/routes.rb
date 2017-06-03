@@ -2,7 +2,19 @@ Rails.application.routes.draw do
   resources :orders
   resources :line_items
   resources :carts
+  resources :nutrition
+  resources :supplementation
+  resources :workout
+
   get 'store/index'
+  get 'workout/plan'
+  get 'workout/exercise'
+  get 'workout/program'
+  get 'supplementation/guide'
+  get 'home_page/main_page'
+  get 'nutrition/calorie_calculator'
+  get 'nutrition/diet_guide'
+  get 'nutrition/recipes'
 
   resources :products do
     get :who_bought, on: :member
@@ -33,6 +45,11 @@ Rails.application.routes.draw do
   # post 'calorie_calculator'  => 'nutrition#calorie_calculator'
 
   match 'calorie_calculator' => 'nutrition#calorie_calculator', :via => [:post, :get]
+
+
+
+  devise_for :users
+  devise_for :models, controllers: {registrations: 'registrations'}
 
   get 'guide' => 'supplementation#guide'
 

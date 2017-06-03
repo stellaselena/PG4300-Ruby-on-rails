@@ -54,6 +54,9 @@ ActiveRecord::Schema.define(version: 20170603210207) do
     t.datetime "updated_at",             null: false
     t.integer  "quantity",   default: 1
     t.integer  "order_id"
+    t.integer  "order"
+    t.index ["cart_id"], name: "index_line_items_on_cart_id"
+    t.index ["product_id"], name: "index_line_items_on_product_id"
   end
 
   create_table "main_exercises", force: :cascade do |t|

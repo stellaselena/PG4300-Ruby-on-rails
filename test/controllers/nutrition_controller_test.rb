@@ -1,13 +1,19 @@
 require 'test_helper'
 
-class NutritionControllerTest < ActionDispatch::IntegrationTest
-  test "should get calorie_calculator" do
-    get nutrition_calorie_calculator_url
+class NutritionControllerTest < ActionController::TestCase
+
+  test 'should get calorie_calculator' do
+    get :calorie_calculator
     assert_response :success
   end
 
-  test "should get recipies" do
-    get nutrition_recipies_url
+  test 'should get recipes' do
+    get :recipes
+    assert_response :success
+  end
+
+  test 'should get diet_guide' do
+    get :diet_guide
     assert_response :success
   end
 
