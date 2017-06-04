@@ -48,7 +48,7 @@ The application has focus on physical fitness and includes core features such as
 -	pg - Postgres database gem
 ### Note:
 -	Everything works for devlopment mode, but uploading pictures the way we have done it is not entirely suported by Heroku.
-- Paperclip requires an image processor (such as ImageMagick) to be installed and must have access to it. To ensure that it does, on your command line, run which convert (one of the ImageMagick utilities). This will give you the path where that utility is installed. Then, in your environment config file, let Paperclip know to look there by adding that directory to its path. In development mode, you might add this line to config/environments/development.rb): 
+- Paperclip requires an image processor (such as ImageMagick) to be installed and must have access to it. To ensure that it does, on your command line, run which convert (one of the ImageMagick utilities). This will give you the path where that utility is installed. Then, in your environment config file, let Paperclip know to look there by adding that directory to its path. 
 -	This project is a school project, so please do not type in any actual or sensitive information. 
 ### References
 Child, M. (2014, 10 27). Youtube. Retrieved from How To Build A Workout Log In Rails 4:
