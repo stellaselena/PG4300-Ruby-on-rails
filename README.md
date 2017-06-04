@@ -37,6 +37,8 @@ The application has focus on physical fitness and includes core features such as
 -	Paperclip – File attachment library
 -	Cocoon – Easier way to handle nested forms 
 -	Devise – Flexible authentication solution based on Warden
+- Railties - manages the rails command line interface
+- Rails-controller-testing - Make tests pass
 ### References
 Child, M. (2014, 10 27). Youtube. Retrieved from How To Build A Workout Log In Rails 4:
 https://www.youtube.com/watch?v=2_Lbj3slZUY
