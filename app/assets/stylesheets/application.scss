@@ -25,12 +25,11 @@
 $grey: #616161;
 
 body {
-  background: -webkit-linear-gradient(90deg, #E5E1D1 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(90deg, #E5E1D1 10%, #FFFFFF 90%); /* FF3.6+ */
-  background: -ms-linear-gradient(90deg, #E5E1D1 10%, #FFFFFF 90%); /* IE10 */
-  background: -o-linear-gradient(90deg, #E5E1D1 10%, #FFFFFF 90%); /* Opera 11.10+ */
-  background: linear-gradient(90deg, #E5E1D1 10%, #FFFFFF 90%); /* W3C */
-  Overflow-x: hidden;
+  background: -webkit-linear-gradient(90deg, #FDFFFB 10%, #FFE3D3 90%); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #FDFFFB 10%, #FFE3D3 90%); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #FDFFFB 10%, #FFE3D3 90%); /* IE10 */
+  background: -o-linear-gradient(90deg, #FDFFFB 10%, #FFE3D3 90%); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #FDFFFB 10%, #FFE3D3 90%); /* W3C */
 }
 
 .jumbotron {
