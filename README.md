@@ -1,4 +1,4 @@
-# README
+﻿# README
 
 # Fitness Tech
 ### Git repository: https://github.com/stellaselena/PG4300-Ruby-on-rails.git
@@ -6,13 +6,19 @@ We used git to keep ourselves organized and we divided tasks equally throughout 
 ### Heroku: http://fitnesstech.herokuapp.com/
 ### Instructions: 
 ```sh
-Docker-compose build
-Docker-compose up
+docker-compose build
+docker-compose up
 Open new terminal, go to project: 
-Docker-compose run web rake db:create
-Close project, run docker-compose up again
+docker-compose run web rake db:setup
+open localhost:3000 in your browser
 ```
 ### Login: 
+-	Can create new user if you wish, will be regular user (no access to add a new exercise in /exercises)
+-	Can login into pre-defined admin user:
+-		email: admin@admin.com
+-		password: admin96
+-	Being logged in gives access to the workout log
+-	Only given oppertunity to remove and edit your own posts
 ### Description: 
 The application has focus on physical fitness and includes core features such as Diet information, Supplement guide, Exercise guide and more.  
 -	Main page consists of links to other functionalities. The application has a navigation menu, making it easier for the user to navigate through the website. We also tried to make the application as responsive as possible, allowing it to be mobile friendly.
@@ -37,6 +43,9 @@ The application has focus on physical fitness and includes core features such as
 -	Paperclip – File attachment library
 -	Cocoon – Easier way to handle nested forms 
 -	Devise – Flexible authentication solution based on Warden
+-	Railties - application bootup, plugins, generators, and rake tasks
+-	Rails-controller-testing - `assigns` and `assert_template` from ActionDispatch
+-	pg - Postgres database gem
 ### References
 Child, M. (2014, 10 27). Youtube. Retrieved from How To Build A Workout Log In Rails 4:
 https://www.youtube.com/watch?v=2_Lbj3slZUY

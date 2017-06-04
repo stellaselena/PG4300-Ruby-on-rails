@@ -22,7 +22,7 @@
       <% end %>
       <span class="badge badge-default badge-pill"><%= @count %></span>
         <strong>By: </strong><%= post.user.username %>
-        <% if user_signed_in? && post.user.id == current_user.id %>
+        <% if user_signed_in? && (post.user.id == current_user.id || current_user.try(:admin?))%>
           <%= link_to 'Edit', edit_post_path(post), class: "btn btn-warning" %>
           <%= link_to 'Destroy', post, class: "btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' } %>
         <% end %>

@@ -54,9 +54,8 @@ ActiveRecord::Schema.define(version: 20170603210207) do
     t.datetime "updated_at",             null: false
     t.integer  "quantity",   default: 1
     t.integer  "order_id"
-    t.integer  "order"
-    t.index ["cart_id"], name: "index_line_items_on_cart_id"
-    t.index ["product_id"], name: "index_line_items_on_product_id"
+    t.index ["cart_id"], name: "index_line_items_on_cart_id", using: :btree
+    t.index ["product_id"], name: "index_line_items_on_product_id", using: :btree
   end
 
   create_table "main_exercises", force: :cascade do |t|

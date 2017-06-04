@@ -4,4 +4,5 @@ class StoreController < ApplicationController
     @products = Product.order(:title)
     @cart = current_cart
   end
+  helper_method :current_cart
 end
