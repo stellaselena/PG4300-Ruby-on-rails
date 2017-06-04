@@ -46,6 +46,10 @@ The application has focus on physical fitness and includes core features such as
 - 	Railties - manages the rails command line interface
 - 	Rails-controller-testing - Make tests pass
 -	pg - Postgres database gem
+### Note:
+-	Everything works for devlopment mode, but uploading pictures the way we have done it
+-	is not entirely suported by Heroku.
+-	This project is a school project, so please do not type in any actual or sensitive information. 
 =======
 
 ### References
